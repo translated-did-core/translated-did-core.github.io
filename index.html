@@ -2177,8 +2177,7 @@ Template</a>中描述的任何其他私有信息类成员。建议使用JWKs[<ci
           </dd>
           <dt><dfn id="dfn-serviceendpoint" tabindex="0" aria-haspopup="dialog" data-dfn-type="dfn">serviceEndpoint</dfn></dt>
           <dd>
-<code>serviceEndpoint</code>属性的值<em>必须</em>是一个 <a href="https://infra.spec.whatwg.org/#string">字符串</a>，一个<a href="https://infra.spec.whatwg.org/#string">映射</a>或由多个 <a href="https://infra.spec.whatwg.org/#string">字符串</a> 和/或 <a href="https://infra.spec.whatwg.org/#string">映射</a>组成的<a href="https://infra.spec.whatwg.org/#ordered-set">集合</a>。所有 <a href="https://infra.spec.whatwg.org/#string">字符串</a>的值必须是符合 [<cite><a class="bibref" data-link-type="biblio" href="#bib-rfc3986" title="Uniform Resource Identifier (URI): Generic Syntax">RFC3986</a></cite>]的<a href="#dfn-uri" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-uri-18">URIs</a>，并根据 <a href="https://www.rfc-editor.org/rfc/rfc3986#section-6">Normalization and Comparison
-rules in RFC3986</a> 和其他适用 <a href="#dfn-uri" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-uri-19">URI</a>规范方案中的规则进行标准化。
+<code>serviceEndpoint</code>属性的值<em>必须</em>是一个 <a href="https://infra.spec.whatwg.org/#string">字符串</a>，一个<a href="https://infra.spec.whatwg.org/#string">映射</a>或由多个 <a href="https://infra.spec.whatwg.org/#string">字符串</a> 和/或 <a href="https://infra.spec.whatwg.org/#string">映射</a>组成的<a href="https://infra.spec.whatwg.org/#ordered-set">集合</a>。所有 <a href="https://infra.spec.whatwg.org/#string">字符串</a>的值必须是符合 [<cite><a class="bibref" data-link-type="biblio" href="#bib-rfc3986" title="Uniform Resource Identifier (URI): Generic Syntax">RFC3986</a></cite>]的<a href="#dfn-uri" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-uri-18">URIs</a>，并根据 <a href="https://www.rfc-editor.org/rfc/rfc3986#section-6">RFC3986 中的标准化和比较规则</a> 和其他适用 <a href="#dfn-uri" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-uri-19">URI</a>规范方案中的规则进行标准化。
           </dd>
         </dl>
       </dd></dl>
@@ -2236,7 +2235,7 @@ rules in RFC3986</a> 和其他适用 <a href="#dfn-uri" class="internalDFN" data
       </p>
       <ol>
         <li>
-<a href="#dfn-conforming-producer" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-conforming-producer-3">符合要求的生产者</a> <em class="rfc2119">必须</em>将 a <a href="#dfn-did-documents" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-did-documents-96">DID 文档</a><a href="#data-model">数据模型</a>和<a href="#dfn-representation-specific-entry" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-representation-specific-entry-4">特定于表示的条目</a>a href="https://infra.spec.whatwg.org/#maps">映射</a>作为<a href="#dfn-production" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-production-3">生产</a>流程的输入。
+<a href="#dfn-conforming-producer" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-conforming-producer-3">符合要求的生产者</a> <em class="rfc2119">必须</em>将 a <a href="#dfn-did-documents" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-did-documents-96">DID 文档</a><a href="#data-model">数据模型</a>和<a href="#dfn-representation-specific-entry" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-representation-specific-entry-4">特定于表示的条目</a><a href="https://infra.spec.whatwg.org/#maps">映射</a>作为<a href="#dfn-production" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-production-3">生产</a>流程的输入。
 <a href="#dfn-conforming-producer" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-conforming-producer-4">符合要求的生产者</a><em class="rfc2119">可以</em>接受其他选项作为 <a href="#dfn-production" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-production-4">生产</a>过程的输入。
         </li>
         <li>
@@ -2264,7 +2263,7 @@ rules in RFC3986</a> 和其他适用 <a href="#dfn-uri" class="internalDFN" data
 <a href="#dfn-conforming-consumer" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-conforming-consumer-5">符合要求的消费者</a> <em class="rfc2119">必须</em>使用媒体类型输入<a href="https://infra.spec.whatwg.org/#string">字符串</a>来确定 <a href="#dfn-did-documents" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-did-documents-99">DID 文档</a> 的 <a href="#dfn-representations" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-representations-38">表示形式</a>。
         </li>
         <li>
- <a href="#dfn-conforming-consumer" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-conforming-consumer-6">符合规范的消费者</a> <em class="rfc2119">必须</em>在所有已知表示中检测到任何 <a href="#dfn-representation-specific-entry" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-representation-specific-entry-6">表征特定条目</a>，并将该条目放入表示特定条目a href="https://infra.spec.whatwg.org/#maps">映射</a>中，该映射在 <a href="#dfn-consumption" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-consumption-6"></a> 过程完成后返回。
+ <a href="#dfn-conforming-consumer" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-conforming-consumer-6">符合规范的消费者</a> <em class="rfc2119">必须</em>在所有已知表示中检测到任何 <a href="#dfn-representation-specific-entry" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-representation-specific-entry-6">表征特定条目</a>，并将该条目放入表示特定条目<a href="https://infra.spec.whatwg.org/#maps">映射</a>中，该映射在 <a href="#dfn-consumption" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-consumption-6"></a> 过程完成后返回。
 DID 规范注册表  [<cite><a class="bibref" data-link-type="biblio" href="#bib-did-spec-registries" title="DID Specification Registries">DID-SPEC-REGISTRIES</a></cite>] 中列出了所有已知的 <a href="#dfn-representation-specific-entry" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-representation-specific-entry-8">特定表示条目</a>。
         </li>
         <li>
@@ -3108,7 +3107,7 @@ notFound
 ]</code></pre>
       </div>
       <p>
-      以下是一个示例，展示了如果未找到a href="#dfn-decentralized-identifiers" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-decentralized-identifiers-86">DID</a>时可能使用的JSON编码元数据结构，作为 <a href="#did-resolution-options">DID 解析元数据</a>：
+      以下是一个示例，展示了如果未找到<a href="#dfn-decentralized-identifiers" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-decentralized-identifiers-86">DID</a>时可能使用的JSON编码元数据结构，作为 <a href="#did-resolution-options">DID 解析元数据</a>：
       </p>
       <div class="example" id="example-json-encoded-did-resolution-metadata-example">
         <div class="marker">
@@ -4047,8 +4046,7 @@ eIDAS</a>，<a target="_blank" href="https://pages.nist.gov/800-63-3/sp800-63-3.
             aria-label="Permalink for this Section"></a>
         </div>
         <p>
-          Given the concerns in the previous section, implementers are urged to
-          consider any of the following service endpoint approaches:
+         鉴于上一节中提到的问题，强烈建议实现者考虑以下任何一种服务端点方法：
         </p>
         <ul>
           <li>
@@ -4278,7 +4276,7 @@ eIDAS</a>，<a target="_blank" href="https://pages.nist.gov/800-63-3/sp800-63-3.
       </p></div>
       <div class="example" id="example-verifiable-credential-linked-to-a-verification-method-of-type-ed25519verificationkey2020">
         <div class="marker">
-    <a class="self-link" href="#example-verifiable-credential-linked-to-a-verification-method-of-type-ed25519verificationkey2020">例子<bdi> 33</bdi></a><span class="example-title">: Verifiable Credential linked to a verification method of type Ed25519VerificationKey2020</span>
+    <a class="self-link" href="#example-verifiable-credential-linked-to-a-verification-method-of-type-ed25519verificationkey2020">例子<bdi> 33</bdi></a><span class="example-title">:与 Ed25519VerificationKey2020 类型的验证方法关联的可验证凭证</span>
   </div> <pre aria-busy="false"><code class="hljs json">{  <span class="hljs-comment">// external (all terms in this example)</span>
   <span class="hljs-attr">"@context"</span>: [
     <span class="hljs-string">"https://www.w3.org/2018/credentials/v1"</span>,
@@ -4321,7 +4319,7 @@ eIDAS</a>，<a target="_blank" href="https://pages.nist.gov/800-63-3/sp800-63-3.
       </div>
       <div class="example" id="example-verifiable-credential-linked-to-a-verification-method-of-type-jsonwebkey2020">
         <div class="marker">
-    <a class="self-link" href="#example-verifiable-credential-linked-to-a-verification-method-of-type-jsonwebkey2020">例子<bdi> 34</bdi></a><span class="example-title">: Verifiable Credential linked to a verification method of type JsonWebKey2020</span>
+    <a class="self-link" href="#example-verifiable-credential-linked-to-a-verification-method-of-type-jsonwebkey2020">例子<bdi> 34</bdi></a><span class="example-title">: 与 JsonWebKey2020 类型的验证方法关联的可验证凭证</span>
   </div> <pre aria-busy="false"><code class="hljs json">{  <span class="hljs-comment">// external (all terms in this example)</span>
   <span class="hljs-attr">"@context"</span>: [
     <span class="hljs-string">"https://www.w3.org/2018/credentials/v1"</span>,
@@ -4349,7 +4347,7 @@ eIDAS</a>，<a target="_blank" href="https://pages.nist.gov/800-63-3/sp800-63-3.
       </div>
       <div class="example" id="example-verifiable-credential-linked-to-a-bls12381-verification-method">
         <div class="marker">
-    <a class="self-link" href="#example-verifiable-credential-linked-to-a-bls12381-verification-method">例子<bdi> 35</bdi></a><span class="example-title">: Verifiable Credential linked to a bls12381 verification method</span>
+    <a class="self-link" href="#example-verifiable-credential-linked-to-a-bls12381-verification-method">例子<bdi> 35</bdi></a><span class="example-title">: 与 bls12381 验证方法关联的可验证凭证</span>
   </div> <pre aria-busy="false"><code class="hljs json">{  <span class="hljs-comment">// external (all terms in this example)</span>
   <span class="hljs-attr">"@context"</span>: [
     <span class="hljs-string">"https://www.w3.org/2018/credentials/v1"</span>,
@@ -4381,7 +4379,7 @@ eIDAS</a>，<a target="_blank" href="https://pages.nist.gov/800-63-3/sp800-63-3.
       </div>
       <div class="example" id="example-verifiable-credential-selective-disclosure-zero-knowledge-proof-linked-to-a-bls12381-verification-method">
         <div class="marker">
-    <a class="self-link" href="#example-verifiable-credential-selective-disclosure-zero-knowledge-proof-linked-to-a-bls12381-verification-method">例子<bdi> 36</bdi></a><span class="example-title">: Verifiable Credential selective disclosure zero knowledge proof linked to a bls12381 verification method</span>
+    <a class="self-link" href="#example-verifiable-credential-selective-disclosure-zero-knowledge-proof-linked-to-a-bls12381-verification-method">例子<bdi> 36</bdi></a><span class="example-title">: 与 bls12381 验证方法关联的选择性披露零知识证明的可验证凭证</span>
   </div> <pre aria-busy="false"><code class="hljs json">{  <span class="hljs-comment">// external (all terms in this example)</span>
   <span class="hljs-attr">"@context"</span>: [
     <span class="hljs-string">"https://www.w3.org/2018/credentials/v1"</span>,
@@ -4413,7 +4411,7 @@ eIDAS</a>，<a target="_blank" href="https://pages.nist.gov/800-63-3/sp800-63-3.
       </div>
       <div class="example" id="example-verifiable-credential-as-decoded-jwt">
         <div class="marker">
-    <a class="self-link" href="#example-verifiable-credential-as-decoded-jwt">例子<bdi> 37</bdi></a><span class="example-title">: Verifiable Credential as Decoded JWT</span>
+    <a class="self-link" href="#example-verifiable-credential-as-decoded-jwt">例子<bdi> 37</bdi></a><span class="example-title">: 作为已解码JWT的可验证凭证</span>
   </div> <pre aria-busy="false"><code class="hljs json">{ <span class="hljs-comment">// external (all terms in this example)</span>
   <span class="hljs-attr">"protected"</span>: {
     <span class="hljs-attr">"kid"</span>: <span class="hljs-string">"did:example:123#_Qq0UL2Fq651Q0Fjd6TvnYE-faHiOpRlPVQcY_-tA4A"</span>,
@@ -4457,7 +4455,7 @@ eIDAS</a>，<a target="_blank" href="https://pages.nist.gov/800-63-3/sp800-63-3.
       </p></div>
       <div class="example" id="example-jwe-linked-to-a-verification-method-via-kid">
         <div class="marker">
-    <a class="self-link" href="#example-jwe-linked-to-a-verification-method-via-kid">Example<bdi> 38</bdi></a><span class="example-title">: JWE linked to a verification method via kid</span>
+    <a class="self-link" href="#example-jwe-linked-to-a-verification-method-via-kid">Example<bdi> 38</bdi></a><span class="example-title">: 通过kid与验证方法关联的JWE</span>
   </div> <pre aria-busy="false"><code class="hljs json">{ <span class="hljs-comment">// external (all terms in this example)</span>
   <span class="hljs-attr">"ciphertext"</span>: <span class="hljs-string">"3SHQQJajNH6q0fyAHmw..."</span>,
   <span class="hljs-attr">"iv"</span>: <span class="hljs-string">"QldSPLVnFf2-VXcNLza6mbylYwphW57Q"</span>,
