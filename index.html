@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="zh" dir="ltr">
 
 <head>
     <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
@@ -3608,7 +3608,7 @@
                         href="#did-controller" aria-label="Permalink for Section 5.1.2"></a>
                 </div>
                 <p>
-                    <a><a href="#dfn-did-controllers" class="internalDFN" data-link-type="dfn"
+                    <a href="#dfn-did-controllers" class="internalDFN" data-link-type="dfn"
                             id="ref-for-dfn-did-controllers-9">DID 控制者</a>是被授权的可以对<a href="#dfn-did-documents"
                         class="internalDFN" data-link-type="dfn" id="ref-for-dfn-did-documents-68">DID 文档</a>进行修改的实体。<a
                         href="#dfn-did-methods" class="internalDFN" data-link-type="dfn"
@@ -3748,9 +3748,7 @@
                     <p>
                         此<code>verificationMethod</code> 属性是<em>可选</em> 的。如果存在，则其值必须是 <a href="#dfn-verification-method"
                             class="internalDFN" data-link-type="dfn" id="ref-for-dfn-verification-method-17">验证方法</a>的
-                        <a href="https://infra.spec.whatwg.org/#ordered-set">集合</a> ，其中每个<a
-                            href="#dfn-verification-method" class="internalDFN" data-link-type="dfn"
-                            id="ref-for-dfn-verification-method-17a"><a href="#dfn-verification-method"
+                        <a href="https://infra.spec.whatwg.org/#ordered-set">集合</a> ，其中每个<a href="#dfn-verification-method"
                                 class="internalDFN" data-link-type="dfn"
                                 id="ref-for-dfn-verification-method-18">验证方法</a>都使用 <a
                             href="https://infra.spec.whatwg.org/#ordered-map">映射</a>来表示。 <a
@@ -4068,7 +4066,7 @@
                     对象</a>进行密钥协商协议——需要使用<code><a href="#dfn-keyagreement" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-keyagreement-2">keyAgreement</a></code>的属性值来实现这个验证过程。
             </p>
             <p>
-            <a> <a href="#dfn-did-documents" class="internalDFN" data-link-type="dfn"
+           <a href="#dfn-did-documents" class="internalDFN" data-link-type="dfn"
                     id="ref-for-dfn-did-documents-83">DID
                     文档</a>不使用 <a href="#dfn-verification-relationship" class="internalDFN" data-link-type="dfn"
                 id="ref-for-dfn-verification-relationship-10">验证关系</a>来表示已经撤销的密钥。如果被引用的验证方法不在用于解引用它的最新<a
@@ -4105,8 +4103,7 @@
                     </dt>
                     <dd>
                         此 <code>authentication</code>属性是<em>可选的</em>。如果存在，则关联值必须是一个或多个<a href="#dfn-verification-method"
-                            class="internalDFN" data-link-type="dfn" id="ref-for-dfn-verification-method-46">验证方法</a>的<a
-                            data-cite="INFRA#ordered-set"><a href="https://infra.spec.whatwg.org/#ordered-set">集合</a>
+                            class="internalDFN" data-link-type="dfn" id="ref-for-dfn-verification-method-46">验证方法</a>的<a href="https://infra.spec.whatwg.org/#ordered-set">集合</a>
                         。每种<a href="#dfn-verification-method" class="internalDFN" data-link-type="dfn"
                             id="ref-for-dfn-verification-method-47">验证方法</a>都可以被嵌入或被引用。
                     </dd>
@@ -4201,7 +4198,7 @@
                 </dl>
                 <p>
                     这个属性在处理<a href="#dfn-verifiable-credentials" class="internalDFN" data-link-type="dfn"
-                        id="ref-for-dfn-verifiable-credentials-2">可验证凭证</a>时非常有用。在验证过程中，验证者会检查<a><a href="#dfn-verifiable-credentials" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-verifiable-credentials-3">可验证凭证</a> 中是否包含由<a href="#dfn-did-subjects" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-did-subjects-34">DID 对象</a>创建的证明，具体方法是确认用于断言该证明的<a href="#dfn-verification-method" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-verification-method-53">验证方法</a>是否与相应<a href="#dfn-did-documents" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-did-documents-91">DID 文档</a>中的<code><a href="#dfn-assertionmethod" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-assertionmethod-2">assertionMethod</a></code>属性相关联。
+                        id="ref-for-dfn-verifiable-credentials-2">可验证凭证</a>时非常有用。在验证过程中，验证者会检查<a href="#dfn-verifiable-credentials" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-verifiable-credentials-3">可验证凭证</a> 中是否包含由<a href="#dfn-did-subjects" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-did-subjects-34">DID 对象</a>创建的证明，具体方法是确认用于断言该证明的<a href="#dfn-verification-method" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-verification-method-53">验证方法</a>是否与相应<a href="#dfn-did-documents" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-did-documents-91">DID 文档</a>中的<code><a href="#dfn-assertionmethod" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-assertionmethod-2">assertionMethod</a></code>属性相关联。
                                         
                 </p>
                 <div class="example" id="example-assertion-method-property-containing-two-verification-methods">
@@ -4312,7 +4309,7 @@
                     <dt><dfn id="dfn-capabilityinvocation" tabindex="0" aria-haspopup="dialog"
                             data-dfn-type="dfn">capabilityInvocation</dfn></dt>
                     <dd>
-                        <code>capabilityInvocation</code>属性是<em>可选的</em>。如果存在，则关联值必须是一个或多个<a> <a
+                        <code>capabilityInvocation</code>属性是<em>可选的</em>。如果存在，则关联值必须是一个或多个<a
                                 href="#dfn-verification-method" class="internalDFN" data-link-type="dfn"
                                 id="ref-for-dfn-verification-method-58">验证方法</a>的一个<a
                             href="https://infra.spec.whatwg.org/#ordered-set">集合</a>。每种<a
@@ -6619,7 +6616,6 @@
                         title="DID Specification Registries">DID-SPEC-REGISTRIES</a></cite>]是一个包含<a
                     href="#dfn-did-methods" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-did-methods-85">DID
                     方法</a>名及其对应规范的信息列表。实施者需注意，没有一个中心化机构可以强制将某个<a href="#dfn-did-methods" class="internalDFN"
-                    data-link-type="dfn" id="ref-for-dfn-did-methods-86"><a href="#dfn-did-methods" class="internalDFN"
                         data-link-type="dfn" id="ref-for-dfn-did-methods-87">DID 方法</a>规范与特定的<a
                     href="#dfn-did-methods" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-did-methods-88">DID
                     方法</a>名绑定。如果不确定某个特定<a href="#dfn-did-resolvers" class="internalDFN" data-link-type="dfn"
@@ -6764,7 +6760,6 @@
                             href="#dfn-did-resolution" class="internalDFN" data-link-type="dfn"
                             id="ref-for-dfn-did-resolution-17">DID解析</a>过程中可以使用的时间戳相关内容，见 7.1.3“DID文档元数据”章节（ <a
                             href="#did-document-metadata" class="sec-ref"><bdi class="secno">7.1.3 </bdi>DID 文档元数据</a>）。
-                        
                 </li>
                  <li>
                     DID对象正在监控未经授权的更新，详见9.5“DID文档变更通知”章节（<a href="#notification-of-did-document-changes"
@@ -8906,14 +8901,14 @@
             <p>
                 <a href="#dfn-did-documents" class="internalDFN" data-link-type="dfn"
                     id="ref-for-dfn-did-documents-246">DID
-                    文档</a></a>的<a href="#dfn-did-controllers" class="internalDFN" data-link-type="dfn"
+                    文档</a>的<a href="#dfn-did-controllers" class="internalDFN" data-link-type="dfn"
                     id="ref-for-dfn-did-controllers-59">DID 控制者</a>可能会随着时间的推移而发生变化。但是，根据其实现方式，<a
                     href="#dfn-did-controllers" class="internalDFN" data-link-type="dfn"
                     id="ref-for-dfn-did-controllers-60">DID
                     控制者</a>的更改可能不会因 <a href="#dfn-did-documents" class="internalDFN" data-link-type="dfn"
-                    id="ref-for-dfn-did-documents-247">DID 文档</a></a>本身的更改而变得明显。例如，如果更改是通过更改用于 <a
+                    id="ref-for-dfn-did-documents-247">DID 文档</a>本身的更改而变得明显。例如，如果更改是通过更改用于 <a
                     href="#dfn-did-documents" class="internalDFN" data-link-type="dfn"
-                    id="ref-for-dfn-did-documents-248">DID 文档</a></a>中一个或多个<a href="#dfn-verification-method"
+                    id="ref-for-dfn-did-documents-248">DID 文档</a>中一个或多个<a href="#dfn-verification-method"
                     class="internalDFN" data-link-type="dfn"
                     id="ref-for-dfn-verification-method-105">验证方法</a>的基础加密密钥或其他控制的所有权来实现的，则它可能与标准密钥轮换无法区分。
                 
