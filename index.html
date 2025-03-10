@@ -1686,10 +1686,10 @@
         </div>
         <p><em>此章节是非规范性的。</em></p>
         <p>
-            作为个人和组织，我们很多人都在使用全球唯一标识符在各种各样的情况下。这些标识符作为通信地址（电话号码、电子邮件地址、社交媒体上的用户名）、身份证号码（护照、驾驶执照、税号、健康保险）和产品标识符（序列号数字、条形码、RFID）。URI（统一资源标识符）用于标记Web上的资源，此外，您在浏览器中查看的每个网页都有一个全局唯一URL（统一资源定位符）。
+            作为个人和组织，我们在各种各样的场景下使用全球唯一标识符。这些标识符作为通信地址（电话号码、电子邮件地址、社交媒体上的用户名）、身份证号码（护照、驾驶执照、税号、健康保险）和产品标识符（序列号数字、条形码、RFID）。URI（统一资源标识符）用于标记Web上的资源，此外，您在浏览器中查看的每个网页都有一个全局唯一URL（统一资源定位符）。
              </p>
         <p>
-            这些全球唯一标识符中的绝大多数不受我们的控制。它们由外部的权威机构颁发，这些权威机构决定这些标识符发给谁和它们用来做什么，以及它们何时可以被撤回。它们仅在某些情况下有用，并且只被某些特定的机构所认可。它们可能会随着颁发机构的倒闭而消失或不再有效。它们可能在不经意间泄露个人信息。在许多情况下，它们可以被恶意的第三方欺诈性地复制和断言，这便是通常所说的“身份盗窃”。
+            这些全球唯一标识符中的绝大多数不受我们的控制。它们由外部的权威机构颁发，这些权威机构决定这些标识符发给谁和它们用来做什么，以及它们何时可以被撤回。这些标识符只在某些特定的场景下有用，并且仅被我们无法选择的特定机构所认可。它们可能会随着颁发机构的倒闭而消失或不再有效。它们可能在不经意间泄露个人信息。在许多情况下，它们可以被恶意的第三方欺诈性地复制和断言，这便是通常所说的“身份盗窃”。
         </p>
         <p>
             本规范中定义的分布式标识 (DID)
@@ -1708,7 +1708,7 @@
                  </li><li>
                 想要了解如何在软、硬件系统中使用DID的系统集成商；
                 </li><li>
-                想要创建新的DID方法标准、规范的作者；
+                想要创建符合本文所述生态系统的新的DID基础设施（称为DID方法）标准、规范的作者；
                 </li></ul>
         <p>
             除了此规范外，读者也可以在《对于分布式标识的应用案例和要求》 [<cite><a class="bibref" data-link-type="biblio" href="#bib-did-use-cases"
@@ -1787,7 +1787,7 @@
                 <a href="#dfn-decentralized-identifiers" class="internalDFN" data-link-type="dfn"
                     id="ref-for-dfn-decentralized-identifiers-13">分布式标识</a> 是某个大系统中的组成元素，例如可验证凭证（Verifiable Credentials
                 ecosystem）生态系统[<cite><a class="bibref" data-link-type="biblio" href="#bib-vc-data-model"
-                        title="Verifiable Credentials Data Model v1.1">VC-DATA-MODEL</a></cite>]。该生态系统对这份规范的设计带来了影响。分布式标识这份规范的设计目的整理如下。
+                        title="Verifiable Credentials Data Model v1.1">VC-DATA-MODEL</a></cite>]。该生态系统对这份规范的设计带来了影响。分布式标识这份规范的设计目标整理如下。
                 
             </p>
             <table class="simple">
@@ -1837,8 +1837,7 @@
                             安全性
                              </td>
                          <td>
-                            为请求方提供拥有足够安全性的<a href="#dfn-did-documents" class="internalDFN" data-link-type="dfn"
-                                id="ref-for-dfn-did-documents-5">DID文档</a>，以此来满足其所需的安全级别。
+                            提供足够的安全性，使请求方能够依赖<a href="#dfn-did-documents" class="internalDFN" data-link-type="dfn"                            id="ref-for-dfn-did-documents-5">DID文档</a>达到其所要求的安全保证水平。
                              </td>
                         
                     </tr>
@@ -1900,7 +1899,7 @@
                             可扩展性
                              </td>
                          <td>
-                            在可能且不妨碍扩展的情况下，启用可扩展性、互操作性、可移植性或简易性。
+                            在不影响互操作性、可移植性或简易性的前提下，尽可能实现可扩展性。
                              </td>
                         
                     </tr>
@@ -1956,8 +1955,8 @@
                     DIDs and DID URLs
                 </dt>
                 <dd>
-                    一个分布式标识<a href="#dfn-decentralized-identifiers" class="internalDFN" data-link-type="dfn"
-                        id="ref-for-dfn-decentralized-identifiers-17">DID</a>是一串<a href="#dfn-uri" class="internalDFN"
+                    分布式标识（<a href="#dfn-decentralized-identifiers" class="internalDFN" data-link-type="dfn"
+                        id="ref-for-dfn-decentralized-identifiers-17">DID</a>）是一个<a href="#dfn-uri" class="internalDFN"
                         data-link-type="dfn" id="ref-for-dfn-uri-2">URI</a>，其包含三部分：URI方案
                     <code>did:</code>，DID方法标识符，和一串由<a href="#dfn-did-methods" class="internalDFN" data-link-type="dfn"
                         id="ref-for-dfn-did-methods-3">DID方法</a>指定的标识符。<a href="#dfn-decentralized-identifiers"
@@ -2043,8 +2042,8 @@
                         class="internalDFN" data-link-type="dfn" id="ref-for-dfn-did-subjects-7">DID
                         对象</a>交互相关的<a href="#dfn-service" class="internalDFN" data-link-type="dfn"
                         id="ref-for-dfn-service-4">服务</a>。 <a href="#dfn-did-documents" class="internalDFN"
-                        data-link-type="dfn" id="ref-for-dfn-did-documents-13">DID 文档</a> 细节的属性说明在<a
-                        href="#core-properties" class="sec-ref"><bdi class="secno">5. </bdi>核心属性</a>中。 一个 <a
+                        data-link-type="dfn" id="ref-for-dfn-did-documents-13">DID 文档</a> 中支持的通用属性在<a
+                        href="#core-properties" class="sec-ref"><bdi class="secno">5. </bdi>核心属性</a>中有规定。 一个 <a
                         href="#dfn-did-documents" class="internalDFN" data-link-type="dfn"
                         id="ref-for-dfn-did-documents-14">DID 文档</a>可以被序列化为一个字节流（见 <a href="#representations"
                         class="sec-ref"><bdi class="secno">6. </bdi>表示</a>）。<a href="#dfn-did-documents"
@@ -2121,10 +2120,10 @@
                  </p>
             <p>
                 一些示例包含本规范中未定义的术语，包括属性名和值。这些用注释(<code>//
-  external (property name|value)</code>)来表示。当在 <a href="#dfn-did-documents" class="internalDFN" data-link-type="dfn"
-                    id="ref-for-dfn-did-documents-18">DID 文档</a>中使用这些术语时，它们将在DID规范注册表[<cite><a class="bibref"
+  external (property name|value)</code>)来表示。当这些术语用于 <a href="#dfn-did-documents" class="internalDFN" data-link-type="dfn"
+                    id="ref-for-dfn-did-documents-18">DID 文档</a>时，可以预期它们已经在DID规范注册表[<cite><a class="bibref"
                         data-link-type="biblio" href="#bib-did-spec-registries"
-                        title="DID Specification Registries">DID-SPEC-REGISTRIES</a></cite>] 中进行注册，并链接到正式定义和JSON-LD文档中。
+                        title="DID Specification Registries">DID-SPEC-REGISTRIES</a></cite>] 中注册，并链接到正式定义和JSON-LD文档中。
                  </p>
             <p>
                 通过评估实现创建和解析符合本规范的<a href="#dfn-decentralized-identifiers" class="internalDFN" data-link-type="dfn"
@@ -2157,8 +2156,7 @@
             <p>
                 一个<dfn>符合规范的 DID文档</dfn> 是指，符合 <a href="#data-model" class="sec-ref"><bdi class="secno">4.
                     </bdi>数据模型</a> 和<a href="#core-properties" class="sec-ref"><bdi class="secno">5.
-                    </bdi>核心属性</a>的数据模型的任何具体表达。一致性文档的格式是确定的、双向的、无损的，如<a href="#representations" class="sec-ref"><bdi
-                        class="secno">6. </bdi>表示</a>所述。
+                    </bdi>核心属性</a>部分相关规范性陈述的数据模型的任何具体表达。符合规范的文档的序列化格式是确定性的、双向的且无损的，如<a href="#representations" class="sec-ref"><bdi class="secno">6. </bdi>表示</a>所述。
                  </p>
             <p>
                 一个<dfn>符合规范的创作者</dfn> 是指，任何可以产生<a href="#dfn-conforming-did" class="internalDFN" data-link-type="dfn"
@@ -2180,7 +2178,7 @@
                     解析</a>中规范的软件/硬件的算法。
                  </p>
             <p>
-                一个<dfn>符合规范的 DID URL重新访问器</dfn> 是指，符合 <a href="#did-url-dereferencing" class="sec-ref"><bdi
+                一个<dfn>符合规范的 DID URL解引用器</dfn> 是指，符合 <a href="#did-url-dereferencing" class="sec-ref"><bdi
                         class="secno">7.2
                     </bdi>DID URL 解引用</a>中规范的软件/硬件的算法。
                  </p>
@@ -2334,7 +2332,7 @@
                         id="ref-for-dfn-representations-2">表示</a>形式的<a href="#dfn-did-documents" class="internalDFN"
                         data-link-type="dfn" id="ref-for-dfn-did-documents-30">DID
                         文档</a>以及附加的元数据。此过程依赖所使用 <a href="#dfn-did-methods" class="internalDFN" data-link-type="dfn"
-                        id="ref-for-dfn-did-methods-13">DID 方法</a>中规定的“读写（read）”操作。过程中输入和输出定义在章节 <a
+                        id="ref-for-dfn-did-methods-13">DID 方法</a>中规定的“读（read）”操作。过程中输入和输出定义在章节 <a
                         href="#did-resolution" class="sec-ref"><bdi class="secno">7.1 </bdi>DID 解析</a>。
                 </dd>
                 <dt><dfn data-lt="DID resolvers|DID resolver" data-plurals="did resolvers" id="dfn-did-resolvers"
@@ -2394,10 +2392,10 @@
                         文档</a>外部的资源。该过程使用<a href="#dfn-did-resolution" class="internalDFN" data-link-type="dfn"
                         id="ref-for-dfn-did-resolution-4">DID 解析</a>来获取DID URL中包含的<a href="#dfn-did-documents"
                         class="internalDFN" data-link-type="dfn" id="ref-for-dfn-did-documents-36">DID
-                        文档</a>。重新访问过程可以对<a href="#dfn-did-documents" class="internalDFN" data-link-type="dfn"
+                        文档</a>。解引用过程可以对<a href="#dfn-did-documents" class="internalDFN" data-link-type="dfn"
                         id="ref-for-dfn-did-documents-33">DID文档</a>执行其他处理，并且返回<a href="#dfn-did-urls"
                         class="internalDFN" data-link-type="dfn" id="ref-for-dfn-did-urls-8">DID
-                        URL</a>指示的重新访问的资源。此过程的输入和输出定义在章节<a href="#did-url-dereferencing" class="sec-ref"><bdi
+                        URL</a>指示的解除引用的资源。此过程的输入和输出定义在章节<a href="#did-url-dereferencing" class="sec-ref"><bdi
                             class="secno">7.2
                         </bdi>DID URL 解引用</a>。
                 </dd>
@@ -2452,7 +2450,7 @@
                 </dd>
                 <dt><dfn data-lt="representation-specific entry|non-representation-specific entry|representation-specific entries"
                         data-plurals="non-representation-specific entries" id="dfn-representation-specific-entry"
-                        tabindex="0" aria-haspopup="dialog" data-dfn-type="dfn">特定条目表示</dfn></dt>
+                        tabindex="0" aria-haspopup="dialog" data-dfn-type="dfn">特定表示条目</dfn></dt>
                 <dd>
                     <a href="#dfn-did-documents" class="internalDFN" data-link-type="dfn"
                         id="ref-for-dfn-did-documents-41">DID
@@ -2486,7 +2484,7 @@
                     在[<cite><a class="bibref" data-link-type="biblio" href="#bib-rfc3986"
                             title="Uniform Resource Identifier (URI): Generic Syntax">RFC3986</a></cite>]中定义的万维网上所有资源的标准标识符格式。<a
                         href="#dfn-decentralized-identifiers" class="internalDFN" data-link-type="dfn"
-                        id="ref-for-dfn-decentralized-identifiers-52">DID</a>本身是一种URL方案。
+                        id="ref-for-dfn-decentralized-identifiers-52">DID</a>本身是一种URI方案。
                 </dd>
                 <dt><dfn data-lt="verifiable credentials|verifiable credential" id="dfn-verifiable-credentials"
                         tabindex="0" aria-haspopup="dialog" data-dfn-type="dfn">可验证凭证</dfn></dt>
@@ -2575,7 +2573,7 @@
             </div>
             <p>
                 通用<a href="#dfn-did-schemes" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-did-schemes-3">DID
-                    方法</a>DID方案是符合[<cite><a class="bibref" data-link-type="biblio" href="#bib-rfc3986"
+                    方法</a>是符合[<cite><a class="bibref" data-link-type="biblio" href="#bib-rfc3986"
                         title="Uniform Resource Identifier (URI): Generic Syntax">RFC3986</a></cite>]的 <a
                     href="#dfn-uri" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-uri-5">URI</a>
                 方案。ABNF的定义如下，其使用[<cite><a class="bibref" data-link-type="biblio" href="#bib-rfc5234"
@@ -2638,9 +2636,9 @@
             </p>
             <p>
                 下面是使用[<cite><a class="bibref" data-link-type="biblio" href="#bib-rfc5234"
-                        title="Augmented BNF for Syntax Specifications: ABNF">RFC5234</a></cite>]中的语法对ABNF的定义。它建立在<a
-                    href="#did-syntax" class="sec-ref"><bdi class="secno">3.1 </bdi>DID Syntax</a> <code>did</code>
-                语法基础之上。 <a data-cite="!rfc3986#section-3.3"><code>path-abempty</code></a>, <a
+                        title="Augmented BNF for Syntax Specifications: ABNF">RFC5234</a></cite>]中的语法的ABNF定义。它基于<a
+                    href="#did-syntax" class="sec-ref"><bdi class="secno">3.1 </bdi>DID 语法</a>中定义的<code>did</code>
+                方案构建。 <a data-cite="!rfc3986#section-3.3"><code>path-abempty</code></a>, <a
                     data-cite="!rfc3986#section-3.4"><code>query</code></a>, 和 <a
                     data-cite="!rfc3986#section-3.5"><code>fragment</code></a> 组件在[<cite><a class="bibref"
                         data-link-type="biblio" href="#bib-rfc3986"
@@ -2774,10 +2772,9 @@
                     <div role="heading" class="note-title marker" id="h-note-0" aria-level="5"><span>提示</span><span
                             class="issue-label">: 跨表示的片段语义</span></div>
                     <p class="">
-                        为了最大限度地提高互操作性，建议实现者以同样的方式解释<a href="#dfn-did-fragments" class="internalDFN" data-link-type="dfn"
-                            id="ref-for-dfn-did-fragments-4">DID 片段</a> 和<a href="#dfn-representations"
-                            class="internalDFN" data-link-type="dfn" id="ref-for-dfn-representations-4">表示</a>。 (参考 <a
-                            href="#representations" class="sec-ref"><bdi class="secno">6. </bdi>表示</a>). 例如，尽管JSON
+                        为了最大限度地提高互操作性，实现者应当确保<a href="#dfn-did-fragments" class="internalDFN" data-link-type="dfn"
+                            id="ref-for-dfn-did-fragments-4">DID 片段</a>在不同的<a href="#dfn-representations"
+                            class="internalDFN" data-link-type="dfn" id="ref-for-dfn-representations-4">表示</a>中（见 <a href="#representations" class="sec-ref"><bdi class="secno">6. </bdi>表示</a>）被相同地解释。例如，尽管JSON
                         Pointer [<cite><a class="bibref" data-link-type="biblio" href="#bib-rfc6901"
                                 title="JavaScript Object Notation (JSON) Pointer">RFC6901</a></cite>]可以用于 <a
                             href="#dfn-did-fragments" class="internalDFN" data-link-type="dfn"
@@ -2787,10 +2784,8 @@
                          </p>
                 </div>
                 <p>
-                    与DID片段相关的其它语义，在 <a href="#application-did-ld-json" class="sec-ref"><bdi class="secno">E.2
-                        </bdi>应用程序/did+ld+json</a>中有更多JSON-LD表示的描述。有关如何解除访问<a href="#dfn-did-fragments"
-                        class="internalDFN" data-link-type="dfn" id="ref-for-dfn-did-fragments-6">DID 片段</a>的信息，请参考 <a
-                        href="#did-url-dereferencing" class="sec-ref"><bdi class="secno">7.2 </bdi>DID URL 解引用</a>。
+                    在<a href="#application-did-ld-json" class="sec-ref"><bdi class="secno">E.2 </bdi>应用程序/did+ld+json</a>中描述了为JSON-LD表示提供的片段标识附加语义，与本节中的语义兼容并在此基础上进行了扩展。关于如何解引用<a href="#dfn-did-fragments" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-did-fragments-6">DID 片段</a>的信息，请参见<a href="#did-url-dereferencing" class="sec-ref"><bdi class="secno">7.2 </bdi>DID URL 解引用</a>。
+                                        
                      </p>
             </section>
             <section id="did-parameters">
@@ -2836,7 +2831,7 @@
                 <div class="note" role="note" id="issue-container-generatedID-1">
                     <div role="heading" class="note-title marker" id="h-note-1" aria-level="5"><span>提示</span></div>
                     <p class="">
-                        通常，DID URL重新访问器的实现将引用[<cite><a class="bibref" data-link-type="biblio" href="#bib-did-resolution"
+                        通常，DID URL解引用器的实现将引用[<cite><a class="bibref" data-link-type="biblio" href="#bib-did-resolution"
                                 title="Decentralized Identifier Resolution">DID-RESOLUTION</a></cite>]以获取更多实现细节。本规范的范围仅定义了最常见查询参数的合约。
                          </p>
                 </div>
@@ -2875,9 +2870,9 @@
                                     文档</a>中<a href="#dfn-service-endpoints" class="internalDFN" data-link-type="dfn"
                                     id="ref-for-dfn-service-endpoints-2">服务端点</a>的<code>service</code>参数来标记/获取<a
                                     href="#dfn-resources" class="internalDFN" data-link-type="dfn"
-                                    id="ref-for-dfn-resources-8">资源</a>。如果存在，关联值必须是一个<a data-lt="ascii string"
+                                    id="ref-for-dfn-resources-8">资源</a>。如果存在，关联值<em>必须</em>是一个<a data-lt="ascii string"
                                     data-type="dfn"
-                                    href="https://infra.spec.whatwg.org/#ascii-string">ASCII字符串</a>，并且<em>必须</em>>使用<a
+                                    href="https://infra.spec.whatwg.org/#ascii-string">ASCII字符串</a>，并且<em>必须</em>使用<a
                                     href="https://www.rfc-editor.org/rfc/rfc3986#section-2.1">RFC3986
                                     Section 2.1</a>中指定的百分比编码来表示某些字符。
                             </td>
@@ -2890,7 +2885,7 @@
                                 标记要解析的 <a href="#dfn-did-documents" class="internalDFN" data-link-type="dfn"
                                     id="ref-for-dfn-did-documents-47">DID 文档</a>的特定版本（版本ID可以是顺序的，或者是<a href="#dfn-uuid"
                                     class="internalDFN" data-link-type="dfn"
-                                    id="ref-for-dfn-uuid-1">UUID</a>，或者是用于特定方法的）。如果存在，关联值<em>必须</em>>是一个<a
+                                    id="ref-for-dfn-uuid-1">UUID</a>，或者是用于特定方法的）。如果存在，关联值<em>必须</em>是一个<a
                                     data-lt="ascii string" data-type="dfn"
                                     href="https://infra.spec.whatwg.org/#ascii-string">ASCII 字符串</a>。
                             </td>
@@ -2905,14 +2900,14 @@
                                     href="#dfn-decentralized-identifiers" class="internalDFN" data-link-type="dfn"
                                     id="ref-for-dfn-decentralized-identifiers-59">DID</a>有效的一个<a
                                     href="#dfn-did-documents" class="internalDFN" data-link-type="dfn"
-                                    id="ref-for-dfn-did-documents-49">DID 文档</a> 。如果存在，关联值<em>必须</em>>是一个有效的XML日期时间值的<a
+                                    id="ref-for-dfn-did-documents-49">DID 文档</a> 。如果存在，关联值<em>必须</em>是一个有效的XML datetime值的<a
                                     data-lt="ascii string" data-type="dfn"
                                     href="https://infra.spec.whatwg.org/#ascii-string">ASCII
                                     字符串</a>，见<a href="https://www.w3.org/TR/xmlschema11-2/"><abbr
                                         title="World Wide Web Consortium">W3C</abbr> XML Schema Definition Language
                                     (XSD) 1.1 Part 2: Datatypes</a> [<cite><a class="bibref" data-link-type="biblio"
                                         href="#bib-xmlschema11-2"
-                                        title="W3C XML Schema Definition Language (XSD) 1.1 Part 2: Datatypes">XMLSCHEMA11-2</a></cite>]。该日期时间值*必须*标准化为UTC
+                                        title="W3C XML Schema Definition Language (XSD) 1.1 Part 2: Datatypes">XMLSCHEMA11-2</a></cite>]。该日期时间值<em>必须</em>标准化为UTC
                                 00:00:00，且不保留亚秒级小数精度。例如：<code>2020-12-20T19:17:47Z</code>。
                             </td>
                         </tr>
@@ -2963,7 +2958,7 @@
                             href="#dfn-did-url-dereferencing" class="internalDFN" data-link-type="dfn"
                             id="ref-for-dfn-did-url-dereferencing-4">DID URL 解引用</a>的过程，参考(<a
                             href="#did-resolution-options" class="sec-ref"><bdi class="secno">7.1.1 </bdi>DID
-                            解析选项</a>)。这与HTTP类似，在HTTP中，某些参数可以包含在HTTP URL中，或者在重新访问过程中作为HTTP标头传递。重要的区别在于，DID参数作为<a
+                            解析选项</a>)。这与HTTP类似，在HTTP中，某些参数可以包含在HTTP URL中，或者在解除引用过程中作为HTTP标头传递。重要的区别在于，DID参数作为<a
                             href="#dfn-did-urls" class="internalDFN" data-link-type="dfn"
                             id="ref-for-dfn-did-urls-19">DID
                             URL</a>的一部分，它应用于指定所标识的<a href="#dfn-resources" class="internalDFN" data-link-type="dfn"
@@ -3004,7 +2999,7 @@
                         id="ref-for-dfn-decentralized-identifiers-61">DID</a>，参考<a href="#did-subject"
                         class="sec-ref"><bdi class="secno">5.1.1 </bdi>DID
                         对象</a>。<b>方案</b>是<code>did</code>。<b>授权</b>是<code>&lt;method-name>:&lt;method-specific-id></code>的组合，此外，<b>path</b>,
-                    <b>query</b>和<b>fragment</b>的数值为<a href="#path" class="sec-ref">路径</a>, <a href="#query"
+                    <b>query</b>和<b>fragment</b>的值为<a href="#path" class="sec-ref">路径</a>, <a href="#query"
                         class="sec-ref">查询</a>和<a href="#fragment" class="sec-ref">片段</a>中分别定义的值。
                     
                 </p>
@@ -3072,7 +3067,7 @@
                 文档</a>数据模型至少包含两种不同类别的条目。第一类条目称为属性（properties），并在<a href="#core-properties" class="sec-ref"><bdi
                     class="secno">5.
                 </bdi>核心属性</a>中指定。第二类是<a href="#dfn-representation-specific-entry" class="internalDFN"
-                data-link-type="dfn" id="ref-for-dfn-representation-specific-entry-1">特定条目表示</a>，并在<a
+                data-link-type="dfn" id="ref-for-dfn-representation-specific-entry-1">特定表示条目</a>，并在<a
                 href="#representations" class="sec-ref"><bdi class="secno">6. </bdi>表示</a>中指定。
         </p>
         <figure id="did-document-entries">
@@ -4680,7 +4675,7 @@
                         id="ref-for-dfn-did-documents-97">DID
                         文档</a><a href="#data-model">数据模型</a>中的所有条目和针对<a href="#dfn-representation-specific-entry"
                         class="internalDFN" data-link-type="dfn"
-                        id="ref-for-dfn-representation-specific-entry-5">特定条目表示</a>的条目<a
+                        id="ref-for-dfn-representation-specific-entry-5">特定表示条目</a>的条目<a
                         href="https://infra.spec.whatwg.org/#maps">映射</a>进行序列化，这些条目没有明确的处理规则，只能使用<a
                         href="#dfn-representations" class="internalDFN" data-link-type="dfn"
                         id="ref-for-dfn-representations-34">表示</a>的数据类型处理规则进行制作，并在<a href="#dfn-production"
@@ -4865,7 +4860,7 @@
                     <a href="#dfn-did-documents" class="internalDFN" data-link-type="dfn"
                         id="ref-for-dfn-did-documents-103">DID
                         文档</a>、DID 文档数据结构和针对<a href="#dfn-representation-specific-entry" class="internalDFN"
-                        data-link-type="dfn" id="ref-for-dfn-representation-specific-entry-10">特定条目表示</a>的条目<a
+                        data-link-type="dfn" id="ref-for-dfn-representation-specific-entry-10">特定表示条目</a>的条目<a
                         href="https://infra.spec.whatwg.org/#maps">映射</a><em class="rfc2119">必须</em>根据以下<a
                         href="#dfn-production" class="internalDFN" data-link-type="dfn"
                         id="ref-for-dfn-production-8">生产</a>规则序列化为 JSON <a href="#dfn-representations"
@@ -5892,7 +5887,7 @@
                     href="#dfn-decentralized-identifiers" class="internalDFN" data-link-type="dfn"
                     id="ref-for-dfn-decentralized-identifiers-85">DID</a>。<a href="#dfn-did-url-dereferencing"
                     class="internalDFN" data-link-type="dfn" id="ref-for-dfn-did-url-dereferencing-7">DID URL
-                    解引用</a>可能涉及多个步骤（例如，当要重新访问/解引用的DID
+                    解引用</a>可能涉及多个步骤（例如，当要解引用的DID
                 URL包含一个片段时），并且该函数定义为在所有步骤完成后返回最终资源。有关此过程如何实现的详细信息不在本规范的范围之内。下图展示了上述关系。
             </p>
             <figure id="did-url-dereference-overview">
@@ -5986,7 +5981,7 @@
                         <p class="">
                             虽然可以将任何 <code>didUrl</code>传递给DID URL解引用器，但实现者应参考[<cite><a class="bibref"
                                     data-link-type="biblio" href="#bib-did-resolution"
-                                    title="Decentralized Identifier Resolution">DID-RESOLUTION</a></cite>]以进一步了解如何重新访问/解引用<a
+                                    title="Decentralized Identifier Resolution">DID-RESOLUTION</a></cite>]以进一步了解如何解引用<a
                                 href="#dfn-did-urls" class="internalDFN" data-link-type="dfn"
                                 id="ref-for-dfn-did-urls-33">DID
                                 URL</a>的常见模式。
@@ -6014,7 +6009,7 @@
                 <dd>
                     一个<a href="#metadata-structure">元数据结构</a> ，包含与<a href="#dfn-did-url-dereferencing"
                         class="internalDFN" data-link-type="dfn" id="ref-for-dfn-did-url-dereferencing-8">DID URL
-                        解引用</a> 结果相关的值。此结构是<em class="rfc2119">必需</em>的，如果重新访问/解引用过程出现错误，则<em class="rfc2119">必需不</em>
+                        解引用</a> 结果相关的值。此结构是<em class="rfc2119">必需</em>的，如果解引用过程出现错误，则<em class="rfc2119">必需不</em>
                     为空。相关属性定义见<a href="#did-url-dereferencing-metadata" class="sec-ref"><bdi class="secno">7.2.2
                         </bdi>DID URL
                         解引用元数据</a>。如果解引用不成功，该结构<em class="rfc2119">必需</em>包含一个<code>error</code> 属性，用于描述错误。
@@ -6107,7 +6102,7 @@
                         contentType
                     </dt>
                     <dd>
-                        如果重新访问/解引用成功，返回的<code>contentStream</code>的媒体类型<em class="rfc2119">应该</em> 使用此属性表示。媒体类型值<em
+                        如果解引用成功，返回的<code>contentStream</code>的媒体类型<em class="rfc2119">应该</em> 使用此属性表示。媒体类型值<em
                             class="rfc2119">必须</em> 以一个<a data-lt="ascii string" data-type="dfn"
                             href="https://infra.spec.whatwg.org/#ascii-string">ASCII 字符串</a>表示。
                     </dd>
