@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: $$$/GeneralStr/196=Adobe Illustrator 27.6.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1"
+	 id="图层_1" xmlns:anim="urn:oasis:names:tc:opendocument:xmlns:animation:1.0" xmlns:ooo="http://xml.openoffice.org/svg/export" xmlns:smil="http://www.w3.org/2001/SMIL20/" xmlns:presentation="http://sun.com/xmlns/staroffice/presentation"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 741.6 453.6"
+	 style="enable-background:new 0 0 741.6 453.6;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_00000023241872320746284580000016821490214017765289_);}
+	.st1{fill:none;}
+	.st2{fill:none;stroke:#000000;stroke-width:2.8346;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st3{font-family:'CourierNewPSMT';}
+	.st4{font-size:9.0142px;}
+	.st5{fill:none;stroke:#3465A4;stroke-width:1.4173;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st6{fill-rule:evenodd;clip-rule:evenodd;fill:#3465A4;}
+	.st7{font-family:'AdobeSongStd-Light-GBpc-EUC-H';}
+	.st8{font-size:10.0063px;}
+	.st9{fill:none;stroke:#CC0000;stroke-width:1.4173;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st10{fill-rule:evenodd;clip-rule:evenodd;fill:#CC0000;}
+	.st11{fill:#005A9C;}
+	.st12{font-size:10.9984px;}
+	.st13{fill:none;stroke:#005A9C;stroke-width:1.4457;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st14{enable-background:new    ;}
+	.st15{font-family:'Arial-BoldMT';}
+	.st16{fill:none;stroke:#808080;stroke-width:1.4457;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+<g>
+	<g id="id2">
+		<g id="bg-id2">
+		</g>
+		<g id="bo-id2">
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<g id="container-id1">
+			<g>
+				<defs>
+					<rect id="SVGID_1_" x="0" width="741.6" height="453.6"/>
+				</defs>
+				<clipPath id="SVGID_00000119083569894270087090000002594344601646656934_">
+					<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+				</clipPath>
+				<g id="id1" style="clip-path:url(#SVGID_00000119083569894270087090000002594344601646656934_);">
+					<g>
+						<g>
+							<g id="id3">
+								<rect x="16.3" y="288" class="st1" width="309.6" height="144.7"/>
+								<path class="st2" d="M171,431.3H17.7V289.4h306.7v141.8H171z"/>
+								<text transform="matrix(1 0 0 1 26.1919 301.8047)" class="st3 st4">{</text>
+								<text transform="matrix(1 0 0 1 26.1919 312.0098)" class="st3 st4">  &quot;@context&quot;: [&quot;https://www.w3.org/ns/did/v1&quot;], </text>
+								<text transform="matrix(1 0 0 1 26.1919 322.2144)" class="st3 st4">  </text>
+								<text transform="matrix(1 0 0 1 37.0107 322.2144)" class="st3 st4">&quot;id&quot;: &quot;did:example:123&quot;,</text>
+								<text transform="matrix(1 0 0 1 26.1919 332.4189)" class="st3 st4">  </text>
+								<text transform="matrix(1 0 0 1 37.0107 332.4189)" class="st3 st4">&quot;verificationMethod</text>
+								<text transform="matrix(1 0 0 1 139.7891 332.4189)" class="st3 st4">&quot;: [{</text>
+								<text transform="matrix(1 0 0 1 26.1919 342.6235)" class="st3 st4">    </text>
+								<text transform="matrix(1 0 0 1 47.8296 342.6235)" class="st3 st4">&quot;id&quot;: &quot;did:example:123#keys-1&quot;,</text>
+								<text transform="matrix(1 0 0 1 26.1919 352.8286)" class="st3 st4">    &quot;controller&quot;: &quot;</text>
+								<text transform="matrix(1 0 0 1 128.9702 352.8286)" class="st3 st4">did:example:123&quot;,</text>
+								<text transform="matrix(1 0 0 1 26.1919 363.0332)" class="st3 st4">    </text>
+								<text transform="matrix(1 0 0 1 47.8296 363.0332)" class="st3 st4">&quot;type&quot;: &quot;Ed25519VerificationKey2018&quot;,</text>
+								<text transform="matrix(1 0 0 1 26.1919 373.2378)" class="st3 st4">    </text>
+								<text transform="matrix(1 0 0 1 47.8296 373.2378)" class="st3 st4">&quot;publicKeyBase58&quot;: &quot;H3C2AVvLMv6gmMNam3uVA&quot;</text>
+								<text transform="matrix(1 0 0 1 26.1919 383.4424)" class="st3 st4">  </text>
+								<text transform="matrix(1 0 0 1 37.0107 383.4424)" class="st3 st4">}],</text>
+								<text transform="matrix(1 0 0 1 26.1919 393.6475)" class="st3 st4">  </text>
+								<text transform="matrix(1 0 0 1 37.0107 393.6475)" class="st3 st4">&quot;authentication&quot;: [</text>
+								<text transform="matrix(1 0 0 1 26.1919 403.8516)" class="st3 st4">    </text>
+								<text transform="matrix(1 0 0 1 47.8296 403.8516)" class="st3 st4">&quot;did:example:123#keys-1&quot;</text>
+								<text transform="matrix(1 0 0 1 26.1919 414.0566)" class="st3 st4">  </text>
+								<text transform="matrix(1 0 0 1 37.0107 414.0566)" class="st3 st4">]</text>
+								<text transform="matrix(1 0 0 1 26.1919 424.2617)" class="st3 st4">}</text>
+							</g>
+						</g>
+						<g>
+							<g id="id4">
+								<rect x="418" y="239.8" class="st1" width="309.6" height="145"/>
+								<path class="st2" d="M572.7,383.3H419.4V241.2h306.7v142.1H572.7z"/>
+								<text transform="matrix(1 0 0 1 427.8896 253.5874)" class="st3 st4">{</text>
+								<text transform="matrix(1 0 0 1 427.8896 263.792)" class="st3 st4">  &quot;id&quot;: &quot;did:example:123&quot;,</text>
+								<text transform="matrix(1 0 0 1 427.8896 273.9971)" class="st3 st4">  </text>
+								<text transform="matrix(1 0 0 1 438.709 273.9971)" class="st3 st4">&quot;verificationMethod</text>
+								<text transform="matrix(1 0 0 1 541.4863 273.9971)" class="st3 st4">&quot;: [{</text>
+								<text transform="matrix(1 0 0 1 427.8896 284.2017)" class="st3 st4">    </text>
+								<text transform="matrix(1 0 0 1 449.5273 284.2017)" class="st3 st4">&quot;id&quot;: &quot;did:example:123#keys-1&quot;,</text>
+								<text transform="matrix(1 0 0 1 427.8896 294.4062)" class="st3 st4">    </text>
+								<text transform="matrix(1 0 0 1 449.5273 294.4062)" class="st3 st4">&quot;controller&quot;: &quot;</text>
+								<text transform="matrix(1 0 0 1 530.668 294.4062)" class="st3 st4">did:example:123&quot;,</text>
+								<text transform="matrix(1 0 0 1 427.8896 304.6113)" class="st3 st4">    </text>
+								<text transform="matrix(1 0 0 1 449.5273 304.6113)" class="st3 st4">&quot;type&quot;: &quot;Ed25519VerificationKey2018&quot;,</text>
+								<text transform="matrix(1 0 0 1 427.8896 314.8159)" class="st3 st4">    </text>
+								<text transform="matrix(1 0 0 1 449.5273 314.8159)" class="st3 st4">&quot;publicKeyBase58&quot;: &quot;H3C2AVvLMv6gmMNam3uVA&quot;</text>
+								<text transform="matrix(1 0 0 1 427.8896 325.0205)" class="st3 st4">  </text>
+								<text transform="matrix(1 0 0 1 438.709 325.0205)" class="st3 st4">}],</text>
+								<text transform="matrix(1 0 0 1 427.8896 335.2251)" class="st3 st4">  </text>
+								<text transform="matrix(1 0 0 1 438.709 335.2251)" class="st3 st4">&quot;authentication&quot;: [</text>
+								<text transform="matrix(1 0 0 1 427.8896 345.4302)" class="st3 st4">    </text>
+								<text transform="matrix(1 0 0 1 449.5273 345.4302)" class="st3 st4">&quot;did:example:123#keys-1&quot;</text>
+								<text transform="matrix(1 0 0 1 427.8896 355.6348)" class="st3 st4">  </text>
+								<text transform="matrix(1 0 0 1 438.709 355.6348)" class="st3 st4">]</text>
+								<text transform="matrix(1 0 0 1 427.8896 365.8394)" class="st3 st4">}</text>
+							</g>
+						</g>
+						<g>
+							<g id="id5">
+								<rect x="448.9" y="65.9" class="st1" width="278.9" height="74"/>
+								<path class="st2" d="M588.3,138.5h-138V67.4h276v71.2H588.3z"/>
+								<text transform="matrix(1 0 0 1 458.8154 79.7388)" class="st3 st4">62a3 6469 646f 6469 653a 6178 706d</text>
+								<text transform="matrix(1 0 0 1 458.8154 89.9434)" class="st3 st4">656c 313a 3332 7672 7265 6669 6369</text>
+								<text transform="matrix(1 0 0 1 458.8154 100.1479)" class="st3 st4">7461 6f69 4d6e 7465 6f68 8164 62a4</text>
+								<text transform="matrix(1 0 0 1 458.8154 110.353)" class="st3 st4">6469 6476 6469 653a 6178 706d 656c</text>
+								<text transform="matrix(1 0 0 1 458.8154 120.5576)" class="st3 st4">313a 3332 6b23 7965 2d73 6a31 6f63</text>
+								<text transform="matrix(1 0 0 1 458.8154 130.7622)" class="st3 st4">746e 6f72 6c6c 7265 646f 6469 653a</text>
+							</g>
+						</g>
+						<g>
+							<g id="id6">
+								<rect x="212.4" y="216.5" class="st1" width="8" height="65.4"/>
+								<path class="st5" d="M216.4,217.2v57.2"/>
+								<path class="st6" d="M220.3,273.9l-4,7.9l-4-7.9H220.3z"/>
+							</g>
+						</g>
+						<g>
+							<g id="id7">
+								<rect x="160.5" y="241.9" class="st1" width="50.8" height="18.3"/>
+								<text transform="matrix(1 0 0 1 167.5557 254.4663)" class="st7 st8">生成</text>
+							</g>
+						</g>
+						<g>
+							<g id="id8">
+								<rect x="234.5" y="216.9" class="st1" width="8" height="65.4"/>
+								<path class="st9" d="M238.4,281.6v-57.2"/>
+								<path class="st10" d="M234.5,224.9l4-7.9l4,7.9H234.5z"/>
+							</g>
+						</g>
+						<g>
+							<g id="id9">
+								<rect x="245.6" y="241.6" class="st1" width="55.3" height="18.3"/>
+								<text transform="matrix(1 0 0 1 252.6519 254.1826)" class="st7 st8">使用</text>
+							</g>
+						</g>
+						<g>
+							<g id="id10">
+								<rect x="346.9" y="188" class="st1" width="56.5" height="46.4"/>
+								<path class="st5" d="M347.6,188.7l50,41"/>
+								<path class="st6" d="M399.7,226.3l3.6,8.1l-8.6-2L399.7,226.3z"/>
+							</g>
+						</g>
+						<g>
+							<g id="id11">
+								<rect x="341.7" y="219.6" class="st1" width="50.8" height="18.3"/>
+								<text transform="matrix(1 0 0 1 348.7754 232.186)" class="st7 st8">生成</text>
+							</g>
+						</g>
+						<g>
+							<g id="id12">
+								<rect x="362.9" y="175.7" class="st1" width="56.5" height="46.4"/>
+								<path class="st9" d="M418.7,221.4l-50-41"/>
+								<path class="st10" d="M366.6,183.8l-3.6-8.1l8.6,2L366.6,183.8z"/>
+							</g>
+						</g>
+						<g>
+							<g id="id13">
+								<rect x="398.4" y="183.1" class="st1" width="55.3" height="18.3"/>
+								<text transform="matrix(1 0 0 1 405.5244 195.6758)" class="st7 st8">使用</text>
+							</g>
+						</g>
+						<g>
+							<g id="id14">
+								<rect x="351.3" y="89.1" class="st1" width="79.5" height="8"/>
+								<path class="st5" d="M352,93.1h71.4"/>
+								<path class="st6" d="M422.9,89.1l7.9,4l-7.9,4V89.1z"/>
+							</g>
+						</g>
+						<g>
+							<g id="id15">
+								<rect x="366" y="71.2" class="st1" width="50.8" height="18.3"/>
+								<text transform="matrix(1 0 0 1 373.125 83.7354)" class="st7 st8">生成 </text>
+							</g>
+						</g>
+						<g>
+							<g id="id16">
+								<rect x="352" y="107.2" class="st1" width="79.5" height="8"/>
+								<path class="st9" d="M430.8,111.1h-71.4"/>
+								<path class="st10" d="M360,115.1l-7.9-4l7.9-4V115.1z"/>
+							</g>
+						</g>
+						<g>
+							<g id="id17">
+								<rect x="363.8" y="117.9" class="st1" width="55.3" height="18.3"/>
+								<text transform="matrix(1 0 0 1 370.8848 130.4507)" class="st7 st8">使用</text>
+							</g>
+						</g>
+						<g>
+							<g id="id18">
+								<rect x="12.9" y="436.3" class="st1" width="153.9" height="18.4"/>
+								<text transform="matrix(1 0 0 1 19.9844 448.1289)" class="st3 st8">application/did+ld+json</text>
+							</g>
+						</g>
+						<g>
+							<g id="id19">
+								<rect x="414.6" y="385.9" class="st1" width="135.7" height="18.4"/>
+								<text transform="matrix(1 0 0 1 421.6816 397.6719)" class="st3 st8">application/did+json</text>
+							</g>
+						</g>
+						<g>
+							<g id="id20">
+								<rect x="445" y="141.6" class="st1" width="135.7" height="18.4"/>
+								<text transform="matrix(1 0 0 1 452.0977 153.3828)" class="st3 st8">application/did+cbor</text>
+							</g>
+						</g>
+						<g>
+							<g id="id21">
+								<rect x="16.9" y="15.6" class="st1" width="235.7" height="29.7"/>
+								<text transform="matrix(1 0 0 1 24.0093 29.0552)" class="st11 st7 st12">核心属性</text>
+							</g>
+						</g>
+						<g>
+							<g id="id22">
+								<rect x="16.9" y="14.6" class="st1" width="308.2" height="144.6"/>
+								<path class="st13" d="M171,158.4H17.6V15.3h306.7v143.1H171z"/>
+							</g>
+						</g>
+						<g>
+							<g id="id23">
+								<rect x="19" y="29.7" class="st1" width="312.5" height="129.6"/>
+								<text transform="matrix(1 0 0 1 26.1353 40.7056)" class="st3 st4">«[</text>
+								<text transform="matrix(1 0 0 1 26.1353 50.9102)" class="st3 st4">  </text>
+								<text transform="matrix(1 0 0 1 36.9541 50.9102)" class="st3 st4">&quot;id&quot; → &quot;example:123&quot;,</text>
+								<text transform="matrix(1 0 0 1 26.1353 61.1152)" class="st3 st4">  </text>
+								<text transform="matrix(1 0 0 1 36.9541 61.1152)" class="st3 st4">&quot;verificationMethod&quot; → « </text>
+								<text transform="matrix(1 0 0 1 172.189 61.1152)" class="st3 st4">«[</text>
+								<text transform="matrix(1 0 0 1 26.1353 71.3198)" class="st3 st4">    </text>
+								<text transform="matrix(1 0 0 1 47.7729 71.3198)" class="st3 st4">&quot;id&quot;: &quot;did:example:123#keys-1&quot;,</text>
+								<text transform="matrix(1 0 0 1 26.1353 81.5244)" class="st3 st4">    </text>
+								<text transform="matrix(1 0 0 1 47.7729 81.5244)" class="st3 st4">&quot;controller&quot;: &quot;</text>
+								<text transform="matrix(1 0 0 1 128.9136 81.5244)" class="st3 st4">did:example:123&quot;,</text>
+								<text transform="matrix(1 0 0 1 26.1353 91.729)" class="st3 st4">    </text>
+								<text transform="matrix(1 0 0 1 47.7729 91.729)" class="st3 st4">&quot;type&quot;: &quot;Ed25519VerificationKey2018&quot;,</text>
+								<text transform="matrix(1 0 0 1 26.1353 101.9341)" class="st3 st4">    </text>
+								<text transform="matrix(1 0 0 1 47.7729 101.9341)" class="st3 st4">&quot;publicKeyBase58&quot;: &quot;H3C2AVvLMv6gmMNam3uVA&quot;</text>
+								<text transform="matrix(1 0 0 1 26.1353 112.1387)" class="st3 st4">  </text>
+								<text transform="matrix(1 0 0 1 36.9541 112.1387)" class="st3 st4">]» </text>
+								<text transform="matrix(1 0 0 1 53.1821 112.1387)" class="st3 st4">»,</text>
+								<text transform="matrix(1 0 0 1 26.1353 122.3433)" class="st3 st4">  </text>
+								<text transform="matrix(1 0 0 1 36.9541 122.3433)" class="st3 st4">&quot;authentication&quot; → «</text>
+								<text transform="matrix(1 0 0 1 26.1353 132.5483)" class="st3 st4">    </text>
+								<text transform="matrix(1 0 0 1 47.7729 132.5483)" class="st3 st4">&quot;did:example:123#keys-1&quot;</text>
+								<text transform="matrix(1 0 0 1 26.1353 142.7529)" class="st3 st4">  </text>
+								<text transform="matrix(1 0 0 1 36.9541 142.7529)" class="st3 st4">»</text>
+								<text transform="matrix(1 0 0 1 26.1353 152.9575)" class="st3 st4">]»</text>
+							</g>
+						</g>
+						<g>
+							<g id="id24">
+								<rect x="19" y="183.9" class="st1" width="312.5" height="17.3"/>
+								<text transform="matrix(1 0 0 1 26.1353 194.8818)" class="st3 st4">«[ </text>
+								<text transform="matrix(1 0 0 1 42.3633 194.8818)" class="st3 st4">&quot;@context&quot; → </text>
+								<text transform="matrix(1 0 0 1 112.6855 194.8818)" class="st3 st4">&quot;https://www.w3.org/ns/did/v1&quot; ]»</text>
+							</g>
+						</g>
+						<g>
+							<g id="id25">
+								<rect x="16.9" y="164.3" class="st1" width="279" height="39.4"/>
+								<path class="st13" d="M156.4,202.9H17.6v-37.9h277.5v37.9H156.4z"/>
+							</g>
+						</g>
+						<g>
+							<g id="id26">
+								<rect x="17" y="165.1" class="st1" width="283.9" height="29.7"/>
+								<text transform="matrix(1 0 0 1 24.0376 178.5542)" class="st14"><tspan x="0" y="0" class="st11 st7 st12">核心特定表示条目</tspan><tspan x="88" y="0" class="st11 st15 st12"> (JSON-LD)</tspan></text>
+							</g>
+						</g>
+						<g>
+							<g id="id27">
+								<rect x="10.5" y="7.6" class="st1" width="321.7" height="203.2"/>
+								<path class="st16" d="M171.4,210h-8.7"/>
+								<path class="st16" d="M158.3,210h-8.7"/>
+								<path class="st16" d="M145.3,210h-8.7"/>
+								<path class="st16" d="M132.3,210h-8.7"/>
+								<path class="st16" d="M119.3,210h-8.7"/>
+								<path class="st16" d="M106.3,210h-8.7"/>
+								<path class="st16" d="M93.3,210h-8.7"/>
+								<path class="st16" d="M80.3,210h-8.7"/>
+								<path class="st16" d="M67.3,210h-8.7"/>
+								<path class="st16" d="M54.3,210h-8.7"/>
+								<path class="st16" d="M41.2,210h-8.7"/>
+								<path class="st16" d="M28.2,210h-8.7"/>
+								<path class="st16" d="M15.2,210h-4v-4.7"/>
+								<path class="st16" d="M11.2,201v-8.7"/>
+								<path class="st16" d="M11.2,188v-8.7"/>
+								<path class="st16" d="M11.2,175v-8.7"/>
+								<path class="st16" d="M11.2,162v-8.7"/>
+								<path class="st16" d="M11.2,149v-8.7"/>
+								<path class="st16" d="M11.2,136v-8.7"/>
+								<path class="st16" d="M11.2,123v-8.7"/>
+								<path class="st16" d="M11.2,110v-8.7"/>
+								<path class="st16" d="M11.2,96.9v-8.7"/>
+								<path class="st16" d="M11.2,83.9v-8.7"/>
+								<path class="st16" d="M11.2,70.9v-8.7"/>
+								<path class="st16" d="M11.2,57.9v-8.7"/>
+								<path class="st16" d="M11.2,44.9v-8.7"/>
+								<path class="st16" d="M11.2,31.9v-8.7"/>
+								<path class="st16" d="M11.2,18.9v-8.7"/>
+								<path class="st16" d="M13.7,8.3h8.7"/>
+								<path class="st16" d="M26.7,8.3h8.7"/>
+								<path class="st16" d="M39.7,8.3h8.7"/>
+								<path class="st16" d="M52.8,8.3h8.7"/>
+								<path class="st16" d="M65.8,8.3h8.7"/>
+								<path class="st16" d="M78.8,8.3h8.7"/>
+								<path class="st16" d="M91.8,8.3h8.7"/>
+								<path class="st16" d="M104.8,8.3h8.7"/>
+								<path class="st16" d="M117.8,8.3h8.7"/>
+								<path class="st16" d="M130.8,8.3h8.7"/>
+								<path class="st16" d="M143.8,8.3h8.7"/>
+								<path class="st16" d="M156.8,8.3h8.7"/>
+								<path class="st16" d="M169.9,8.3h8.6"/>
+								<path class="st16" d="M182.9,8.3h8.6"/>
+								<path class="st16" d="M195.9,8.3h8.7"/>
+								<path class="st16" d="M208.9,8.3h8.7"/>
+								<path class="st16" d="M221.9,8.3h8.7"/>
+								<path class="st16" d="M234.9,8.3h8.7"/>
+								<path class="st16" d="M247.9,8.3h8.7"/>
+								<path class="st16" d="M260.9,8.3h8.7"/>
+								<path class="st16" d="M273.9,8.3h8.7"/>
+								<path class="st16" d="M287,8.3h8.7"/>
+								<path class="st16" d="M300,8.3h8.7"/>
+								<path class="st16" d="M313,8.3h8.7"/>
+								<path class="st16" d="M326,8.3h5.5v3.2"/>
+								<path class="st16" d="M331.5,15.9v8.7"/>
+								<path class="st16" d="M331.5,28.9v8.7"/>
+								<path class="st16" d="M331.5,41.9v8.7"/>
+								<path class="st16" d="M331.5,54.9v8.7"/>
+								<path class="st16" d="M331.5,67.9v8.7"/>
+								<path class="st16" d="M331.5,80.9v8.7"/>
+								<path class="st16" d="M331.5,93.9v8.7"/>
+								<path class="st16" d="M331.5,107v8.7"/>
+								<path class="st16" d="M331.5,120v8.7"/>
+								<path class="st16" d="M331.5,133v8.7"/>
+								<path class="st16" d="M331.5,146v8.7"/>
+								<path class="st16" d="M331.5,159v8.7"/>
+								<path class="st16" d="M331.5,172v8.7"/>
+								<path class="st16" d="M331.5,185v8.7"/>
+								<path class="st16" d="M331.5,198v8.7"/>
+								<path class="st16" d="M330.5,210h-8.7"/>
+								<path class="st16" d="M317.5,210h-8.7"/>
+								<path class="st16" d="M304.5,210h-8.7"/>
+								<path class="st16" d="M291.5,210h-8.7"/>
+								<path class="st16" d="M278.4,210h-8.7"/>
+								<path class="st16" d="M265.4,210h-8.7"/>
+								<path class="st16" d="M252.4,210h-8.7"/>
+								<path class="st16" d="M239.4,210h-8.7"/>
+								<path class="st16" d="M226.4,210h-8.7"/>
+								<path class="st16" d="M213.4,210h-8.7"/>
+								<path class="st16" d="M200.4,210h-8.7"/>
+								<path class="st16" d="M187.4,210h-8.7"/>
+								<path class="st16" d="M174.4,210h-3"/>
+							</g>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>
