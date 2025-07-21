@@ -11,7 +11,6 @@
       span.example-title {
         text-transform: none;
       }
-
       :is(aside, div).example,
       div.illegal-example {
         padding: 0.5em;
@@ -19,28 +18,23 @@
         position: relative;
         clear: both;
       }
-
       div.illegal-example {
         color: red;
       }
-
       div.illegal-example p {
         color: #000;
       }
-
       :is(aside, div).example {
         border-left-width: 0.5em;
         border-left-style: solid;
         border-color: #e0cb52;
         background: #fcfaee;
       }
-
       aside.example div.example {
         border-left-width: 0.1em;
         border-color: #999;
         background: #fff;
       }
-
       .example pre {
         background-color: rgba(0, 0, 0, 0.03);
       }
@@ -49,37 +43,30 @@
       .issue-label {
         text-transform: initial;
       }
-
       .warning > p:first-child {
         margin-top: 0;
       }
-
       .warning {
         padding: 0.5em;
         border-left-width: 0.5em;
         border-left-style: solid;
       }
-
       span.warning {
         padding: 0.1em 0.5em 0.15em;
       }
-
       .issue.closed span.issue-number {
         text-decoration: line-through;
       }
-
       .issue.closed span.issue-number::after {
         content: " (Closed)";
         font-size: smaller;
       }
-
       .warning {
         border-color: #f11;
         border-width: 0.2em;
         border-style: solid;
         background: #fbe9e9;
       }
-
       .warning-title:before {
         content: "⚠";
         font-size: 1.3em;
@@ -87,16 +74,13 @@
         padding-right: 0.3em;
         margin-top: -0.3em;
       }
-
       li.task-list-item {
         list-style: none;
       }
-
       input.task-list-item-checkbox {
         margin: 0 0.35em 0.25em -1.6em;
         vertical-align: middle;
       }
-
       .issue a.respec-gh-label {
         padding: 5px;
         margin: 0 2px 0 2px;
@@ -115,7 +99,6 @@
       dfn {
         cursor: pointer;
       }
-
       .dfn-panel {
         position: absolute;
         z-index: 35;
@@ -131,12 +114,10 @@
           0 0 1px 1px rgba(0, 0, 0, 0.05);
         border-radius: 2px;
       }
-
       .dfn-panel:not(.docked) > .caret {
         position: absolute;
         top: -9px;
       }
-
       .dfn-panel:not(.docked) > .caret::after,
       .dfn-panel:not(.docked) > .caret::before {
         content: "";
@@ -146,34 +127,27 @@
         border-bottom: 10px solid #fff;
         top: 0;
       }
-
       .dfn-panel:not(.docked) > .caret::before {
         border-bottom: 9px solid #a2a9b1;
       }
-
       .dfn-panel * {
         margin: 0;
       }
-
       .dfn-panel b {
         display: block;
         color: #000;
         margin-top: 0.25em;
       }
-
       .dfn-panel ul a[href] {
         color: #333;
       }
-
       .dfn-panel > div {
         display: flex;
       }
-
       .dfn-panel a.self-link {
         font-weight: 700;
         margin-right: auto;
       }
-
       .dfn-panel .marker {
         padding: 0.1em;
         margin-left: 0.5em;
@@ -183,34 +157,27 @@
         font-size: 90%;
         color: #040b1c;
       }
-
       .dfn-panel .marker.dfn-exported {
         background: #d1edfd;
         box-shadow: 0 0 0 0.125em #1ca5f940;
       }
-
       .dfn-panel .marker.idl-block {
         background: #8ccbf2;
         box-shadow: 0 0 0 0.125em #0670b161;
       }
-
       .dfn-panel a:not(:hover) {
         text-decoration: none !important;
         border-bottom: none !important;
       }
-
       .dfn-panel a[href]:hover {
         border-bottom-width: 1px;
       }
-
       .dfn-panel ul {
         padding: 0;
       }
-
       .dfn-panel li {
         margin-left: 1em;
       }
-
       .dfn-panel.docked {
         position: fixed;
         left: 0.5em;
@@ -228,177 +195,141 @@
         0% {
           transform: scale(1, 1);
         }
-
         25% {
           transform: scale(1.25, 1.25);
           opacity: 0.75;
         }
-
         100% {
           transform: scale(1, 1);
         }
       }
-
       :is(h1, h2, h3, h4, h5, h6, a) abbr {
         border: none;
       }
-
       dfn {
         font-weight: 700;
       }
-
       a.internalDFN {
         color: inherit;
         border-bottom: 1px solid #99c;
         text-decoration: none;
       }
-
       a.externalDFN {
         color: inherit;
         border-bottom: 1px dotted #ccc;
         text-decoration: none;
       }
-
       a.bibref {
         text-decoration: none;
       }
-
       .respec-offending-element:target {
         animation: pop 0.25s ease-in-out 0s 1;
       }
-
       .respec-offending-element,
       a[href].respec-offending-element {
         text-decoration: red wavy underline;
       }
-
       @supports not (text-decoration: red wavy underline) {
         .respec-offending-element:not(pre) {
           display: inline-block;
         }
-
         .respec-offending-element {
           background: url(data:image/gif;base64,R0lGODdhBAADAPEAANv///8AAP///wAAACwAAAAABAADAEACBZQjmIAFADs=)
             bottom repeat-x;
         }
       }
-
       #references :target {
         background: #eaf3ff;
         animation: pop 0.4s ease-in-out 0s 1;
       }
-
       cite .bibref {
         font-style: normal;
       }
-
       code {
         color: #c63501;
       }
-
       th code {
         color: inherit;
       }
-
       a[href].orcid {
         padding-left: 4px;
         padding-right: 4px;
       }
-
       a[href].orcid > svg {
         margin-bottom: -2px;
       }
-
       .toc a,
       .tof a {
         text-decoration: none;
       }
-
       a .figno,
       a .secno {
         color: #000;
       }
-
       ol.tof,
       ul.tof {
         list-style: none outside none;
       }
-
       .caption {
         margin-top: 0.5em;
         font-style: italic;
       }
-
       table.simple {
         border-spacing: 0;
         border-collapse: collapse;
         border-bottom: 3px solid #005a9c;
       }
-
       .simple th {
         background: #005a9c;
         color: #fff;
         padding: 3px 5px;
         text-align: left;
       }
-
       .simple th a {
         color: #fff;
         padding: 3px 5px;
         text-align: left;
       }
-
       .simple th[scope="row"] {
         background: inherit;
         color: inherit;
         border-top: 1px solid #ddd;
       }
-
       .simple td {
         padding: 3px 10px;
         border-top: 1px solid #ddd;
       }
-
       .simple tr:nth-child(even) {
         background: #f0f6ff;
       }
-
       .section dd > p:first-child {
         margin-top: 0;
       }
-
       .section dd > p:last-child {
         margin-bottom: 0;
       }
-
       .section dd {
         margin-bottom: 1em;
       }
-
       .section dl.attrs dd,
       .section dl.eldef dd {
         margin-bottom: 0;
       }
-
       #issue-summary > ul {
         column-count: 2;
       }
-
       #issue-summary li {
         list-style: none;
         display: inline-block;
       }
-
       details.respec-tests-details {
         margin-left: 1em;
         display: inline-block;
         vertical-align: top;
       }
-
       details.respec-tests-details > * {
         padding-right: 2em;
       }
-
       details.respec-tests-details[open] {
         z-index: 999999;
         position: absolute;
@@ -407,38 +338,31 @@
         background-color: #fff;
         padding-bottom: 0.5em;
       }
-
       details.respec-tests-details[open] > summary {
         border-bottom: thin solid #cad3e2;
         padding-left: 1em;
         margin-bottom: 1em;
         line-height: 2em;
       }
-
       details.respec-tests-details > ul {
         width: 100%;
         margin-top: -0.3em;
       }
-
       details.respec-tests-details > li {
         padding-left: 1em;
       }
-
       .self-link:hover {
         opacity: 1;
         text-decoration: none;
         background-color: transparent;
       }
-
       aside.example .marker > a.self-link {
         color: inherit;
       }
-
       .header-wrapper {
         display: flex;
         align-items: baseline;
       }
-
       :is(h2, h3, h4, h5, h6):not(
           #toc > h2,
           #abstract > h2,
@@ -448,7 +372,6 @@
         position: relative;
         left: -0.5em;
       }
-
       :is(h2, h3, h4, h5, h6):not(#toch2) + a.self-link {
         color: inherit;
         order: -1;
@@ -457,27 +380,22 @@
         font-size: 1rem;
         opacity: 0.5;
       }
-
       :is(h2, h3, h4, h5, h6) + a.self-link::before {
         content: "§";
         text-decoration: none;
         color: var(--heading-text);
       }
-
       :is(h2, h3) + a.self-link {
         top: -0.2em;
       }
-
       :is(h4, h5, h6) + a.self-link::before {
         color: #000;
       }
-
       @media (max-width: 767px) {
         dd {
           margin-left: 0;
         }
       }
-
       @media print {
         .removeOnSave {
           display: none;
@@ -491,37 +409,30 @@
         padding: 2%;
         background: #eeeedd;
       }
-
       .transtitle {
         color: #555555;
         background: #eeeedd;
         font-weight: bolder;
       }
-
       .divcss1 {
         text-align: center;
       }
-
       div.issue-title {
         color: #e05252;
       }
-
       div.note-title,
       div.ednote-title {
         color: #2b2;
       }
-
       div.warning-title {
         color: #f22;
       }
-
       div.issue-title span,
       div.note-title span,
       div.ednote-title span,
       div.warning-title span {
         text-transform: uppercase;
       }
-
       div.note,
       div.issue,
       div.ednote,
@@ -529,14 +440,12 @@
         margin-top: 1em;
         margin-bottom: 1em;
       }
-
       .note > p:first-child,
       .ednote > p:first-child,
       .issue > p:first-child,
       .warning > p:first-child {
         margin-top: 0;
       }
-
       .issue,
       .note,
       .ednote,
@@ -545,7 +454,6 @@
         border-left-width: 0.5em;
         border-left-style: solid;
       }
-
       div.issue,
       div.note,
       div.ednote,
@@ -555,25 +463,21 @@
         position: relative;
         clear: both;
       }
-
       span.note,
       span.ednote,
       span.issue,
       span.warning {
         padding: 0.1em 0.5em 0.15em;
       }
-
       .issue {
         border-color: #e05252;
         background: #fbe9e9;
       }
-
       .note,
       .ednote {
         border-color: #52e052;
         background: #e9fbe9;
       }
-
       .doclinks {
         float: right;
         border: thin solid black;
@@ -582,14 +486,12 @@
         width: 25%;
         hyphens: none;
       }
-
       .warning {
         border-color: #f11;
         border-width: 0.2em;
         border-style: solid;
         background: #fbe9e9;
       }
-
       .warning-title:before {
         content: "⚠";
         /*U+26A0 WARNING SIGN*/
@@ -600,16 +502,13 @@
         vertical-align: top;
         margin-top: -0.5em;
       }
-
       li.task-list-item {
         list-style: none;
       }
-
       input.task-list-item-checkbox {
         margin: 0 0.35em 0.25em -1.6em;
         vertical-align: middle;
       }
-
       .issue a.respec-gh-label {
         padding: 5px;
         margin: 0 2px 0 2px;
@@ -621,12 +520,10 @@
         position: relative;
         bottom: 2px;
       }
-
       .issue a.respec-label-dark {
         color: #fff;
         background-color: #000;
       }
-
       .issue a.respec-label-light {
         color: #000;
         background-color: #fff;
@@ -644,7 +541,6 @@
         margin-left: 4px;
         float: right;
       }
-
       .permalink a,
       .permalink a:link,
       .permalink a:visited,
@@ -656,7 +552,6 @@
         font-weight: bold;
         color: #666 !important;
       }
-
       .permalink abbr {
         border: 0;
       }
@@ -666,29 +561,23 @@
         font-weight: bold;
         color: green;
       }
-
       pre .comment {
         color: SteelBlue;
         user-select: none;
       }
-
       code a[href] {
         color: inherit;
         border-bottom: none;
       }
-
       code a[href]:hover {
         border-bottom: 1px solid #c63501;
       }
-
       table.column-width-50 td {
         width: 50%;
       }
-
       .longdesc {
         display: none;
       }
-
       .longdesc:target {
         display: block;
         background-color: #ff9;
@@ -718,19 +607,16 @@
         color: #383a42;
         background: #fafafa;
       }
-
       .hljs-comment,
       .hljs-quote {
         color: #717277;
         font-style: italic;
       }
-
       .hljs-doctag,
       .hljs-formula,
       .hljs-keyword {
         color: #a626a4;
       }
-
       .hljs-deletion,
       .hljs-name,
       .hljs-section,
@@ -739,11 +625,9 @@
         color: #ca4706;
         font-weight: 700;
       }
-
       .hljs-literal {
         color: #0b76c5;
       }
-
       .hljs-addition,
       .hljs-attribute,
       .hljs-meta-string,
@@ -751,12 +635,10 @@
       .hljs-string {
         color: #42803c;
       }
-
       .hljs-built_in,
       .hljs-class .hljs-title {
         color: #9a6a01;
       }
-
       .hljs-attr,
       .hljs-number,
       .hljs-selector-attr,
@@ -767,7 +649,6 @@
       .hljs-variable {
         color: #986801;
       }
-
       .hljs-bullet,
       .hljs-link,
       .hljs-meta,
@@ -776,15 +657,12 @@
       .hljs-title {
         color: #336ae3;
       }
-
       .hljs-emphasis {
         font-style: italic;
       }
-
       .hljs-strong {
         font-weight: 700;
       }
-
       .hljs-link {
         text-decoration: underline;
       }
@@ -794,7 +672,6 @@
         position: relative;
         cursor: pointer;
       }
-
       var[data-type]::after,
       var[data-type]::before {
         position: absolute;
@@ -804,7 +681,6 @@
         transition: opacity 0.4s;
         pointer-events: none;
       }
-
       var[data-type]::before {
         content: "";
         transform: translateX(-50%);
@@ -813,7 +689,6 @@
         border-color: transparent;
         border-top-color: #000;
       }
-
       var[data-type]::after {
         content: attr(data-type);
         transform: translateX(-50%) translateY(-100%);
@@ -827,7 +702,6 @@
         text-indent: 0;
         font-weight: 400;
       }
-
       var[data-type]:hover::after,
       var[data-type]:hover::before {
         opacity: 1;
@@ -1101,7 +975,6 @@
       href="https://www.w3.org/StyleSheets/TR/2021/W3C-REC"
     />
   </head>
-
   <body
     data-cite="infra rfc3986 HTML INFRA URL WEBIDL DOM FETCH"
     class="h-entry"
@@ -1126,7 +999,6 @@
                  </dd><dt><strong>牵头翻译组织联络人：</strong></dt>
              <dd> <a href="mailto:jingyue@caict.ac.cn">景越</a>，<a href="http://www.caict.ac.cn/ ">中国信息通信研究院</a>；</dd>
              <dd> <a href="mailto:zhangbo3@caict.ac.cn">张波</a>，<a href="http://www.caict.ac.cn/ ">中国信息通信研究院</a>；</dd>
-            
              <dt><strong>参与翻译审阅工作的人员名单:</strong></dt>
              <dd> 参与翻译审阅的单位及个人：<a
                     href="https://lists.w3.org/Archives/Public/w3c-translators/2024OctDec/0020.html/">https://lists.w3.org/Archives/Public/w3c-translators/2024OctDec/0020.html</a>
@@ -1158,6 +1030,11 @@
         <dd>
           <span xml:lang="en" lang="en"
             ><a href="mailto:zhangbo3@caict.ac.cn">Bo Zhang</a></span
+          >
+        </dd>
+        <dd>
+          <span xml:lang="en" lang="en"
+            ><a href="mailto:zhangbo3@caict.ac.cn">Tinghao Qiu</a></span
           >
         </dd>
       </dl>
@@ -1206,6 +1083,12 @@
             >中国信息通信研究院</a
           >；
         </dd>
+        <dd>
+          <a href="mailto:qiutinghao@caict.ac.cn">邱庭皓</a>，<a
+            href="http://www.caict.ac.cn/"
+            >中国信息通信研究院</a
+          >；
+        </dd>
         <dt><strong>参与翻译审阅工作的人员名单:</strong></dt>
         <dd>
           参与翻译审阅的单位及个人：<a
@@ -1228,7 +1111,6 @@
         >。如有任何争议，应以原始英文版本为权威版本。
       </p>
     </div>
-
     <div class="head">
       <p class="logos">
         <a class="logo" href="https://www.w3.org/"
@@ -1556,7 +1438,7 @@
           data-link-type="dfn"
           id="ref-for-dfn-service-1"
           >服务</a
-        >, 它们共同提供了一整套的机制，从而使<a
+        >,它们共同提供了一整套的机制，从而使<a
           href="#dfn-did-controllers"
           class="internalDFN"
           data-link-type="dfn"
@@ -1632,8 +1514,7 @@
         >，它们各自包含可能导致对本规范进行修改的关注点和提议变更的最新列表。在发布时，将不再期待其他更多的实质性问题，变化或修改。
       </p>
       <p>
-        欢迎对本文件提出意见，请将问题直接存档在
-        <a href="https://github.com/w3c/did-core/issues/">GitHub</a
+        欢迎对本文件提出意见，请将问题直接存档在<a href="https://github.com/w3c/did-core/issues/">GitHub</a
         >，或者邮件至<a href="mailto:public-did-wg@w3.org"
           >public-did-wg@w3.org</a
         >
@@ -1670,8 +1551,7 @@
         该文件由遵守W3C专利政策（<a
           href="https://www.w3.org/Consortium/Patent-Policy/"
           ><abbr title="World Wide Web Consortium">W3C</abbr> Patent Policy</a
-        >）小组制作。
-        <abbr title="World Wide Web Consortium">W3C</abbr
+        >）小组制作。<abbr title="World Wide Web Consortium">W3C</abbr
         >维护了一个与小组交付成果相关的任何专利披露的公开清单（<a
           rel="disclosure"
           href="https://www.w3.org/groups/wg/did/ipr"
@@ -2298,8 +2178,7 @@
         这些全球唯一标识符中的绝大多数不受我们的控制。它们由外部的权威机构颁发，这些权威机构决定这些标识符发给谁和它们用来做什么，以及它们何时可以被撤回。这些标识符只在某些特定的场景下有用，并且仅被我们无法选择的特定机构所认可。它们可能会随着颁发机构的倒闭而消失或不再有效。它们可能在不经意间泄露个人信息。在许多情况下，它们可以被恶意的第三方欺诈性地复制和断言，这便是通常所说的“身份盗窃”。
       </p>
       <p>
-        本规范中定义的分布式标识 (DID)
-        是一种新的全球唯一标识符的类型。它们旨在使个人和组织使用其信任的系统生成属于自己的标识符。这些新的标识符使个人和组织能够通过加密证明（例如，数字签名）进行身份验证，以此来证明对该标识的掌控。
+        本规范中定义的分布式标识(DID)是一种新的全球唯一标识符的类型。它们旨在使个人和组织使用其信任的系统生成属于自己的标识符。这些新的标识符使个人和组织能够通过加密证明（例如，数字签名）进行身份验证，以此来证明对该标识的掌控。
       </p>
       <p>
         由于分布式标识的生成和断言是由实体控制的，每个实体都可以拥有尽可能多的DID，以此来满足他们所需要的身份、角色和互动的独立性。这些标识符的使用可以适当地限定在不同的场景与环境中。他们支持人、机构、系统、物体间的互动与互认，同时它可以控制个人数据的泄露量，而这所有的一切都不依赖中心化的授权机构。这些想法也在DID用例文档中进行了探讨[<cite
@@ -2325,7 +2204,7 @@
         </li>
       </ul>
       <p>
-        除了此规范外，读者也可以在《对于分布式标识的应用案例和要求》 [<cite
+        除了此规范外，读者也可以在《对于分布式标识的应用案例和要求》[<cite
           ><a
             class="bibref"
             data-link-type="biblio"
@@ -2354,8 +2233,7 @@
             data-link-type="dfn"
             id="ref-for-dfn-decentralized-identifiers-10"
             >DID</a
-          >是一个简单的文本字符串，一个DID标识包含了三部分：1）<code>did</code>
-          URI方案标识符，2) 用于标记<a
+          >是一个简单的文本字符串，一个DID标识包含了三部分：1）<code>did</code>URI方案标识符，2）用于标记<a
             href="#dfn-did-methods"
             class="internalDFN"
             data-link-type="dfn"
@@ -2386,15 +2264,13 @@
           </figcaption>
         </figure>
         <p>
-          上面示例的
-          <a
+          上面示例的<a
             href="#dfn-decentralized-identifiers"
             class="internalDFN"
             data-link-type="dfn"
             id="ref-for-dfn-decentralized-identifiers-11"
             >DID</a
-          >可以解析为
-          <a
+          >可以解析为<a
             href="#dfn-did-documents"
             class="internalDFN"
             data-link-type="dfn"
@@ -2406,8 +2282,7 @@
             data-link-type="dfn"
             id="ref-for-dfn-did-documents-4"
             >DID文档</a
-          >包含了与该
-          <a
+          >包含了与该<a
             href="#dfn-decentralized-identifiers"
             class="internalDFN"
             data-link-type="dfn"
@@ -2466,9 +2341,7 @@
             data-link-type="dfn"
             id="ref-for-dfn-decentralized-identifiers-13"
             >分布式标识</a
-          >
-          是某个大系统中的组成元素，例如可验证凭证（Verifiable Credentials
-          ecosystem）生态系统[<cite
+          >是某个大系统中的组成元素，例如可验证凭证生态系统[<cite
             ><a
               class="bibref"
               data-link-type="biblio"
@@ -2672,8 +2545,7 @@
               data-link-type="dfn"
               id="ref-for-dfn-uri-2"
               >URI</a
-            >，其包含三部分：URI方案
-            <code>did:</code>，DID方法标识符，和一串由<a
+            >，其包含三部分：URI方案<code>did:</code>，DID方法标识符，和一串由<a
               href="#dfn-did-methods"
               class="internalDFN"
               data-link-type="dfn"
@@ -2697,16 +2569,13 @@
               data-link-type="dfn"
               id="ref-for-dfn-did-urls-1"
               >DID URL</a
-            >
-            拓展了基本的
-            <a
+            >拓展了基本的<a
               href="#dfn-decentralized-identifiers"
               class="internalDFN"
               data-link-type="dfn"
               id="ref-for-dfn-decentralized-identifiers-19"
               >DID</a
-            >语法使其融合了其它
-            <a
+            >语法使其融合了其它<a
               href="#dfn-uri"
               class="internalDFN"
               data-link-type="dfn"
@@ -2718,8 +2587,7 @@
               data-link-type="dfn"
               id="ref-for-dfn-resources-1"
               >资源</a
-            >，例如，定位到
-            <a
+            >，例如，定位到<a
               href="#dfn-did-documents"
               class="internalDFN"
               data-link-type="dfn"
@@ -5844,8 +5712,8 @@ did:example:123?service=files&amp;relativeRef=/resume.pdf</pre
         >]中的术语来定义<a href="#data-model">数据模型</a
         >，因此包含多个项目，如：
         <a href="https://infra.spec.whatwg.org/#list">列（lists）</a>,
-        <a href="https://infra.spec.whatwg.org/#ordered-map">映射（maps）</a> 和
-        <a href="https://infra.spec.whatwg.org/#ordered-set">集合（sets）</a
+        <a href="https://infra.spec.whatwg.org/#ordered-map">映射（maps）</a>和<a 
+        href="https://infra.spec.whatwg.org/#ordered-set">集合（sets）</a
         >的属性值均为显式排序。[<cite
           ><a
             class="bibref"
@@ -5863,7 +5731,7 @@ did:example:123?service=files&amp;relativeRef=/resume.pdf</pre
       <section id="extensibility">
         <div class="header-wrapper">
           <h3 id="x4-1-extensibility">
-            <bdi class="secno">4.1 </bdi>可扩展性（Extensibility）
+            <bdi class="secno">4.1 </bdi>可扩展性
           </h3>
           <a
             class="self-link"
@@ -6235,7 +6103,7 @@ did:example:123?service=files&amp;relativeRef=/resume.pdf</pre
               <td>否</td>
               <td>
                 符合<a href="#service-properties" class="sec-ref"
-                  >Service properties</a
+                  >服务属性</a
                 >规则的一<a href="https://infra.spec.whatwg.org/#ordered-set"
                   >组</a
                 ><a
@@ -6337,7 +6205,7 @@ did:example:123?service=files&amp;relativeRef=/resume.pdf</pre
                 >。更多约束请参考<a
                   href="#dfn-publickeyjwk"
                   id="ref-for-dfn-publickeyjwk-2"
-                  >definition of publicKeyJwk</a
+                  >publicKeyJwk的定义</a
                 >。
               </td>
             </tr>
@@ -6417,8 +6285,8 @@ did:example:123?service=files&amp;relativeRef=/resume.pdf</pre
               <td><code>type</code></td>
               <td>是</td>
               <td>
-                一个<a href="https://infra.spec.whatwg.org/#string">字符串</a>
-                或者一
+                一个<a href="https://infra.spec.whatwg.org/#string">字符串</a
+                  >或者一
                 <a href="https://infra.spec.whatwg.org/#ordered-set">组</a
                 ><a href="https://infra.spec.whatwg.org/#string">字符串</a>。
               </td>
@@ -6709,24 +6577,20 @@ did:example:123?service=files&amp;relativeRef=/resume.pdf</pre
               的。如果存在，其值必须是符合
               <a href="#did-syntax" class="sec-ref"
                 ><bdi class="secno">3.1 </bdi>DID语法</a
-              >规则的<a href="https://infra.spec.whatwg.org/#string"> 字符串</a>
-              或一组字符串的集合。相应的
-              <a
+              >规则的<a href="https://infra.spec.whatwg.org/#string"> 字符串</a
+                >或一组字符串的集合。相应的<a
                 href="#dfn-did-documents"
                 class="internalDFN"
                 data-link-type="dfn"
                 id="ref-for-dfn-did-documents-69"
                 >DID文档</a
-              >应明确包含允许使用某些
-              <a
+              >应明确包含允许使用某些<a
                 href="#dfn-verification-method"
                 class="internalDFN"
                 data-link-type="dfn"
                 id="ref-for-dfn-verification-method-11"
                 >验证方法</a
-              >
-              用于对特定关系的验证
-              <a
+              >用于对特定关系的验证<a
                 href="#dfn-verification-relationship"
                 class="internalDFN"
                 data-link-type="dfn"
@@ -7476,7 +7340,7 @@ did:example:123?service=files&amp;relativeRef=/resume.pdf</pre
               id="ref-for-dfn-verification-method-32"
               >验证方法</a
             >
-            中同时使用<code> <code>publicKeyJwk</code> </code>和<code
+            中同时使用<code><code>publicKeyJwk</code></code>和<code
               >publicKeyMultibase</code
             >
             来表达密钥材料。
@@ -7888,7 +7752,7 @@ did:example:123?service=files&amp;relativeRef=/resume.pdf</pre
             ></a>
           </div>
           <p>
-            <code> <code>authentication</code></code
+            <code><code>authentication</code></code
             ><a
               href="#dfn-verification-relationship"
               class="internalDFN"
@@ -9967,7 +9831,6 @@ did:example:123?service=files&amp;relativeRef=/resume.pdf</pre
               >消费</a
             >规则反序列化到<a href="#data-model">数据模型</a>中：
           </p>
-
           <table
             class="simple column-width-50"
             id="json-representation-consumption"
@@ -14482,7 +14345,7 @@ did:example:123?service=files&amp;relativeRef=/resume.pdf</pre
             >的最新版本的更改有效；不能追溯调整以前的版本。
           </li>
           <li>
-            如5.2.1“验证材料”（5.2.1 Verification Material）章节（<a
+            如5.2.1“验证材料”章节（<a
               href="#verification-material"
               class="sec-ref"
               ><bdi class="secno">5.2.1 </bdi>可验证材料</a
@@ -14701,7 +14564,7 @@ did:example:123?service=files&amp;relativeRef=/resume.pdf</pre
         <section class="notoc">
           <div class="header-wrapper">
             <h4 id="revocation-in-trustless-systems">
-              无信任系统中的撤销（Revocation in Trustless Systems）
+              无信任系统中的撤销
             </h4>
             <a
               class="self-link"
@@ -18251,7 +18114,7 @@ did:example:123?service=files&amp;relativeRef=/resume.pdf</pre
               class="internalDFN"
               data-link-type="dfn"
               id="ref-for-dfn-did-controllers-41"
-              >DID controller</a
+              >DID控制者</a
             >的常见情况。这是个人或组织创建<a
               href="#dfn-decentralized-identifiers"
               class="internalDFN"
@@ -18904,8 +18767,7 @@ did:example:123?service=files&amp;relativeRef=/resume.pdf</pre
           添加用于身份验证、断言、密钥协商、功能调用和功能委托的验证关系。
         </li>
         <li>
-          能够支持将多个标识符与DID文档相关联，例如DID控制者（也称为等效ID（equivalent
-          IDs） 和规范ID（canonical IDs））。
+          能够支持将多个标识符与DID文档相关联，例如DID控制者（也称为等效ID和规范ID）。
         </li>
         <li>通过减少DID文档中可能包含个人身份信息的信息来增强隐私。</li>
         <li>添加了关于安全注意事项和隐私注意事项的大部分内容。</li>
